@@ -1,180 +1,311 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>静中寻文 · HSK2 · Bài tập</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>静中寻文 · HSK2 · Bài tập</title>
 
-  <style>
-    *{box-sizing:border-box}
-    body{
-      margin:0;
-      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",
-      "PingFang SC","Microsoft YaHei",Arial,sans-serif;
-      background:#f5f8f5;
-      color:#24332b;
-    }
+<style>
+:root{
+  --g:#78a892;
+  --d:#36584c;
+  --s:#eef6f1;
+  --l:#dce9e2;
+  --t:#31443b;
+  --m:#718079
+}
 
-    header{
-      background:linear-gradient(135deg,#285c46,#3e765e);
-      color:white;
-      padding:42px 20px;
-      text-align:center;
-    }
+*{box-sizing:border-box}
 
-    header h1{
-      margin:0 0 8px;
-      font-size:34px;
-      letter-spacing:2px;
-    }
+body{
+  margin:0;
+  min-height:100vh;
+  font-family:Inter,-apple-system,BlinkMacSystemFont,
+  "Segoe UI","Noto Sans",Arial,sans-serif;
+  color:var(--t);
+  background:linear-gradient(135deg,#f7fbf8,#eef6f1 58%,#f7f3ea)
+}
 
-    header p{
-      margin:0;
-      opacity:.9;
-      font-size:15px;
-    }
+header{
+  padding:22px 6vw;
+  background:#ffffffdc;
+  border-bottom:1px solid var(--l)
+}
 
-    main{
-      max-width:1050px;
-      margin:0 auto;
-      padding:34px 20px 60px;
-    }
+.brand{
+  font-weight:900;
+  font-size:25px;
+  color:var(--d)
+}
 
-    .intro{
-      margin-bottom:25px;
-    }
+.brand small{
+  display:block;
+  font-size:13px;
+  color:var(--m);
+  margin-top:4px
+}
 
-    .intro h2{
-      margin:0 0 8px;
-      color:#285c46;
-    }
+main{
+  max-width:1100px;
+  margin:auto;
+  padding:58px 24px 70px
+}
 
-    .intro p{
-      margin:0;
-      color:#647168;
-      line-height:1.7;
-    }
+.hero{
+  background:linear-gradient(135deg,#9fc0b0,#dcebe3 62%,#f5eee1);
+  border:1px solid var(--l);
+  border-radius:28px;
+  padding:48px;
+  box-shadow:0 18px 50px #37574914
+}
 
-    .grid{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-      gap:18px;
-    }
+.badge{
+  display:inline-block;
+  background:#fff;
+  border:1px solid var(--l);
+  border-radius:999px;
+  padding:7px 12px;
+  font-weight:750;
+  color:var(--d)
+}
 
-    .card{
-      background:white;
-      border:1px solid #dce7df;
-      border-radius:16px;
-      padding:22px;
-      box-shadow:0 5px 18px rgba(30,70,50,.06);
-    }
+h1{
+  font-size:clamp(34px,6vw,62px);
+  margin:16px 0 8px;
+  color:var(--d)
+}
 
-    .num{
-      font-size:12px;
-      font-weight:700;
-      color:#4d8069;
-      letter-spacing:1px;
-      margin-bottom:10px;
-    }
+.hero p{
+  font-size:18px;
+  line-height:1.7;
+  margin:0;
+  max-width:720px
+}
 
-    .title{
-      font-size:19px;
-      font-weight:700;
-      margin-bottom:10px;
-    }
+.section-title{
+  margin:38px 0 16px;
+  font-size:23px;
+  color:var(--d)
+}
 
-    .status{
-      font-size:13px;
-      color:#758078;
-      margin-bottom:20px;
-    }
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px
+}
 
-    .action{
-      display:inline-block;
-      text-decoration:none;
-      background:#326a52;
-      color:white;
-      padding:10px 16px;
-      border-radius:10px;
-      font-size:14px;
-      font-weight:600;
-    }
+.lesson{
+  display:block;
+  text-decoration:none;
+  color:inherit;
+  background:#fff;
+  border:1px solid var(--l);
+  border-radius:20px;
+  padding:22px;
+  transition:.18s;
+  box-shadow:0 7px 22px #3757490d
+}
 
-    .action:hover{
-      background:#285640;
-    }
+.lesson.active:hover{
+  transform:translateY(-3px);
+  box-shadow:0 13px 30px #3757491f;
+  border-color:#a9c9b9
+}
 
-    .disabled{
-      display:inline-block;
-      background:#edf1ee;
-      color:#99a29c;
-      padding:10px 16px;
-      border-radius:10px;
-      font-size:14px;
-    }
+.num{
+  width:42px;
+  height:42px;
+  display:grid;
+  place-items:center;
+  border-radius:13px;
+  background:var(--s);
+  color:var(--d);
+  font-weight:900;
+  font-size:19px
+}
 
-    footer{
-      text-align:center;
-      color:#89938c;
-      font-size:12px;
-      padding:25px;
-    }
-  </style>
+.lesson h2{
+  font-size:19px;
+  margin:14px 0 5px
+}
+
+.lesson p{
+  margin:0;
+  color:var(--m);
+  font-size:14px;
+  line-height:1.5
+}
+
+.arrow{
+  display:block;
+  margin-top:17px;
+  font-weight:800;
+  color:var(--g)
+}
+
+.locked{
+  opacity:.62;
+  cursor:default
+}
+
+.locked .arrow{
+  color:#9aa7a0
+}
+
+footer{
+  text-align:center;
+  color:var(--m);
+  padding:28px;
+  font-size:13px
+}
+
+@media(max-width:800px){
+  .grid{grid-template-columns:1fr 1fr}
+  .hero{padding:34px 25px}
+}
+
+@media(max-width:520px){
+  .grid{grid-template-columns:1fr}
+  main{padding:30px 16px}
+}
+</style>
 </head>
 
 <body>
 
 <header>
-  <h1>静中寻文</h1>
-  <p>HSK2 · Bài tập & Luyện tập</p>
+  <div class="brand">
+    静中寻文 · HSK2
+    <small>jingzhongxunwen · New HSK 2 · Bài tập trực tuyến</small>
+  </div>
 </header>
 
 <main>
 
-  <section class="intro">
-    <h2>HSK2 · 课后练习</h2>
-    <p>
-      Chọn bài để làm bài tập. Kết quả được lưu riêng theo từng học sinh
-      và có thể quay lại kiểm tra sau khi giáo viên chấm.
-    </p>
-  </section>
+<section class="hero">
+  <span class="badge">✍️ HSK 2 · 课后练习</span>
+  <h1>静中寻文</h1>
+  <p>
+    Khu vực bài tập HSK 2. Chọn bài bên dưới để luyện nghe,
+    đọc hiểu, ngữ pháp và hoàn thành bài tập trực tuyến.
+    Bài làm được lưu riêng theo từng học sinh.
+  </p>
+</section>
 
-  <section class="grid">
+<h2 class="section-title">📝 Danh sách bài tập</h2>
 
-    <article class="card">
-      <div class="num">HSK2 · BÀI 01</div>
-      <div class="title">她请我们吃了北京烤鸭</div>
-      <div class="status">Đã mở · Bài tập trực tuyến</div>
-      <a class="action" href="bai-01/">Làm bài tập →</a>
-    </article>
+<section class="grid">
 
-    <article class="card">
-      <div class="num">HSK2 · BÀI 02</div>
-      <div class="title">Bài 02</div>
-      <div class="status">Chưa mở</div>
-      <span class="disabled">Sắp mở</span>
-    </article>
+<a class="lesson active" href="bai-01/">
+  <span class="num">01</span>
+  <h2>Bài 1</h2>
+  <p>她请我们吃了北京烤鸭</p>
+  <span class="arrow">Làm bài →</span>
+</a>
 
-    <article class="card">
-      <div class="num">HSK2 · BÀI 03</div>
-      <div class="title">Bài 03</div>
-      <div class="status">Chưa mở</div>
-      <span class="disabled">Sắp mở</span>
-    </article>
+<div class="lesson locked">
+  <span class="num">02</span>
+  <h2>Bài 2</h2>
+  <p>HSK 2 · Bài tập</p>
+  <span class="arrow">🔒 Sắp mở</span>
+</div>
 
-    <article class="card">
-      <div class="num">HSK2 · BÀI 04</div>
-      <div class="title">Bài 04</div>
-      <div class="status">Chưa mở</div>
-      <span class="disabled">Sắp mở</span>
-    </article>
+<div class="lesson locked">
+  <span class="num">03</span>
+  <h2>Bài 3</h2>
+  <p>HSK 2 · Bài tập</p>
+  <span class="arrow">🔒 Sắp mở</span>
+</div>
 
-  </section>
+<div class="lesson locked">
+  <span class="num">04</span>
+  <h2>Bài 4</h2>
+  <p>你穿红色的很好看 · Con mặc đồ màu đỏ rất đẹp</p>
+  <span class="arrow">🔒 Sắp mở</span>
+</div>
 
+<div class="lesson locked">
+  <span class="num">05</span>
+  <h2>Bài 5</h2>
+  <p>第一次去中国朋友家 · Lần đầu đến thăm nhà bạn người Trung Quốc</p>
+  <span class="arrow">🔒 Sắp mở</span>
+</div>
+
+<div class="lesson locked">
+  <span class="num">06</span>
+  <h2>Bài 6</h2>
+  <p>小雪，生日快乐！ · Chúc mừng sinh nhật Tiểu Tuyết!</p>
+  <span class="arrow">🔒 Sắp mở</span>
+</div>
+
+<div class="lesson locked">
+  <span class="num">07</span>
+  <h2>Bài 7</h2>
+  <p>他篮球打得很好 · Bạn ấy chơi bóng rổ rất hay</p>
+  <span class="arrow">🔒 Sắp mở</span>
+</div>
+
+<div class="lesson locked">
+  <span class="num">08</span>
+  <h2>Bài 8</h2>
+  <p>虽然你忘了，但是我记得 · Mặc dù em quên, nhưng anh vẫn nhớ</p>
+  <span class="arrow">🔒 Sắp mở</span>
+</div>
+
+<div class="lesson locked">
+  <span class="num">09</span>
+  <h2>Bài 9</h2>
+  <p>我去买杯奶茶 · Em đi mua một cốc trà sữa</p>
+  <span class="arrow">🔒 Sắp mở</span>
+</div>
+
+<div class="lesson locked">
+  <span class="num">10</span>
+  <h2>Bài 10</h2>
+  <p>就要考试了 · Sắp thi rồi</p>
+  <span class="arrow">🔒 Sắp mở</span>
+</div>
+
+<div class="lesson locked">
+  <span class="num">11</span>
+  <h2>Bài 11</h2>
+  <p>我最喜欢吃中国菜 · Em thích ăn món Trung Quốc nhất</p>
+  <span class="arrow">🔒 Sắp mở</span>
+</div>
+
+<div class="lesson locked">
+  <span class="num">12</span>
+  <h2>Bài 12</h2>
+  <p>这里比北京冷多了 · Ở đây lạnh hơn Bắc Kinh nhiều</p>
+  <span class="arrow">🔒 Sắp mở</span>
+</div>
+
+<div class="lesson locked">
+  <span class="num">13</span>
+  <h2>Bài 13</h2>
+  <p>我们爱上中文课 · Chúng tôi yêu thích môn tiếng Trung Quốc</p>
+  <span class="arrow">🔒 Sắp mở</span>
+</div>
+
+<div class="lesson locked">
+  <span class="num">14</span>
+  <h2>Bài 14</h2>
+  <p>一个人过年多没意思啊 · Một mình đón năm mới thì thật vô vị</p>
+  <span class="arrow">🔒 Sắp mở</span>
+</div>
+
+<div class="lesson locked">
+  <span class="num">15</span>
+  <h2>Bài 15</h2>
+  <p>我想再去一次中国 · Em muốn đi Trung Quốc một lần nữa</p>
+  <span class="arrow">🔒 Sắp mở</span>
+</div>
+
+</section>
 </main>
 
 <footer>
-  静中寻文 · HSK2
+  静中寻文 · HSK2 · Bài tập · jingzhongxunwen
 </footer>
 
 </body>
