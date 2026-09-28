@@ -1,1 +1,181 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>静中寻文 · HSK2 · Bài tập</title>
 
+  <style>
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",
+      "PingFang SC","Microsoft YaHei",Arial,sans-serif;
+      background:#f5f8f5;
+      color:#24332b;
+    }
+
+    header{
+      background:linear-gradient(135deg,#285c46,#3e765e);
+      color:white;
+      padding:42px 20px;
+      text-align:center;
+    }
+
+    header h1{
+      margin:0 0 8px;
+      font-size:34px;
+      letter-spacing:2px;
+    }
+
+    header p{
+      margin:0;
+      opacity:.9;
+      font-size:15px;
+    }
+
+    main{
+      max-width:1050px;
+      margin:0 auto;
+      padding:34px 20px 60px;
+    }
+
+    .intro{
+      margin-bottom:25px;
+    }
+
+    .intro h2{
+      margin:0 0 8px;
+      color:#285c46;
+    }
+
+    .intro p{
+      margin:0;
+      color:#647168;
+      line-height:1.7;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:18px;
+    }
+
+    .card{
+      background:white;
+      border:1px solid #dce7df;
+      border-radius:16px;
+      padding:22px;
+      box-shadow:0 5px 18px rgba(30,70,50,.06);
+    }
+
+    .num{
+      font-size:12px;
+      font-weight:700;
+      color:#4d8069;
+      letter-spacing:1px;
+      margin-bottom:10px;
+    }
+
+    .title{
+      font-size:19px;
+      font-weight:700;
+      margin-bottom:10px;
+    }
+
+    .status{
+      font-size:13px;
+      color:#758078;
+      margin-bottom:20px;
+    }
+
+    .action{
+      display:inline-block;
+      text-decoration:none;
+      background:#326a52;
+      color:white;
+      padding:10px 16px;
+      border-radius:10px;
+      font-size:14px;
+      font-weight:600;
+    }
+
+    .action:hover{
+      background:#285640;
+    }
+
+    .disabled{
+      display:inline-block;
+      background:#edf1ee;
+      color:#99a29c;
+      padding:10px 16px;
+      border-radius:10px;
+      font-size:14px;
+    }
+
+    footer{
+      text-align:center;
+      color:#89938c;
+      font-size:12px;
+      padding:25px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>静中寻文</h1>
+  <p>HSK2 · Bài tập & Luyện tập</p>
+</header>
+
+<main>
+
+  <section class="intro">
+    <h2>HSK2 · 课后练习</h2>
+    <p>
+      Chọn bài để làm bài tập. Kết quả được lưu riêng theo từng học sinh
+      và có thể quay lại kiểm tra sau khi giáo viên chấm.
+    </p>
+  </section>
+
+  <section class="grid">
+
+    <article class="card">
+      <div class="num">HSK2 · BÀI 01</div>
+      <div class="title">她请我们吃了北京烤鸭</div>
+      <div class="status">Đã mở · Bài tập trực tuyến</div>
+      <a class="action" href="bai-01/">Làm bài tập →</a>
+    </article>
+
+    <article class="card">
+      <div class="num">HSK2 · BÀI 02</div>
+      <div class="title">Bài 02</div>
+      <div class="status">Chưa mở</div>
+      <span class="disabled">Sắp mở</span>
+    </article>
+
+    <article class="card">
+      <div class="num">HSK2 · BÀI 03</div>
+      <div class="title">Bài 03</div>
+      <div class="status">Chưa mở</div>
+      <span class="disabled">Sắp mở</span>
+    </article>
+
+    <article class="card">
+      <div class="num">HSK2 · BÀI 04</div>
+      <div class="title">Bài 04</div>
+      <div class="status">Chưa mở</div>
+      <span class="disabled">Sắp mở</span>
+    </article>
+
+  </section>
+
+</main>
+
+<footer>
+  静中寻文 · HSK2
+</footer>
+
+</body>
+</html>
