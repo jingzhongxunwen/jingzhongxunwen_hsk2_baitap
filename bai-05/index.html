@@ -1,1 +1,228 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>静中寻文 · HSK2 · Bài 5 · Bài tập</title>
+<style>
+:root{--p:#78A892;--p2:#A8CBB9;--bg:#F4F9F6;--ink:#31443B;--muted:#718079;--line:#DCEAE2;--soft:#E8F3ED}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,"Noto Sans",Arial,sans-serif;background:var(--bg);color:var(--ink)}
+.lock{position:fixed;inset:0;z-index:99;background:linear-gradient(135deg,#E7F2EC,#F8FBF9);display:grid;place-items:center}
+.lock-card{width:min(440px,92vw);background:#fff;padding:28px;border-radius:24px;box-shadow:0 20px 55px #789b9120}
+input[type=text],input[type=password]{width:100%;padding:13px;border:1px solid var(--line);border-radius:12px;margin:6px 0 10px;font-size:16px}
+button{border:1px solid var(--line);background:#fff;color:var(--ink);padding:10px 14px;border-radius:12px;font-weight:750;cursor:pointer}
+.primary{background:var(--p);color:white;border-color:var(--p)}.app{max-width:1500px;margin:auto;padding:18px}
+header{position:sticky;top:0;z-index:20;background:#f4f9f6ed;backdrop-filter:blur(10px);padding:10px 0 12px;border-bottom:1px solid var(--line)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.brand{font-size:24px;font-weight:900;color:#5F907A}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}.tabs button.active{background:var(--soft);color:#4F7F6A;border-color:#C9E0D4}
+.section{display:none;padding-top:20px}.section.active{display:block}.section h1{margin:0 0 5px}.sub{color:var(--muted)}
+.audio{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;margin:14px 0 18px;position:sticky;top:86px;z-index:12;box-shadow:0 8px 25px #789b9115}
+audio{width:100%}.work{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:18px;align-items:start}
+.pages{display:flex;flex-direction:column;gap:18px}.page{background:#fff;border:1px solid var(--line);border-radius:18px;padding:8px;box-shadow:0 8px 26px #1028180c}
+.page img{width:100%;height:auto;display:block;border-radius:12px}.sheet{position:sticky;top:170px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;max-height:calc(100vh - 190px);overflow:auto}
+.sheet h3{margin-top:0}.answer{padding:10px 0;border-bottom:1px dashed var(--line)}.choice-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:7px}
+.choice-row input{display:none}.choice-row span{display:grid;place-items:center;min-width:38px;height:36px;border:1px solid var(--line);border-radius:10px;cursor:pointer;font-weight:850}
+.choice-row input:checked+span{background:var(--p);color:#fff;border-color:var(--p)}
+.preview{margin-top:12px;display:grid;gap:10px}.preview img{max-width:100%;border-radius:12px;border:1px solid var(--line)}.submitbox{margin:26px 0;background:#fff;border:1px solid var(--line);border-radius:20px;padding:20px}
+.status{margin-top:12px;padding:12px;border-radius:12px;background:var(--soft);display:none}.refnote{padding:12px 14px;background:#fff8e8;border:1px solid #f1e2bd;border-radius:14px;margin-bottom:14px}
+@media(max-width:900px){.work{grid-template-columns:1fr}.sheet{position:relative;top:auto;max-height:none}.audio{top:74px}}
 
+
+
+#writeCanvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none;z-index:3;pointer-events:none}#writeCanvas.draw-on{pointer-events:auto}
+.writebar{position:sticky;top:86px;z-index:15;display:flex;gap:7px;flex-wrap:wrap;padding:10px;margin-bottom:12px;background:#ffffffee;border:1px solid var(--line);border-radius:15px;box-shadow:0 8px 25px #789b9118}
+.writebar button.on{background:var(--soft);color:#4F7F6A}
+.write-text{position:absolute;z-index:5;min-width:100px;min-height:34px;padding:5px 7px;border:1px dashed var(--p);background:#ffffffdd;border-radius:8px;font-size:20px;outline:none;touch-action:none;cursor:move}.write-text.editing{cursor:text;border-style:solid}
+.write-answer{margin:12px 0;background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px}
+.smallnote{font-size:13px;color:var(--muted)}
+
+.grammar-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin:12px 0}
+.grammar-card h3{margin:0 0 5px;color:#527E69}.grammar-card p{margin:0;color:var(--muted)}
+.paper-wrap{background:#fff;border:1px solid var(--line);border-radius:20px;padding:12px;margin-top:12px}
+.paper{height:720px;position:relative;overflow:hidden;border-radius:13px;
+background-color:#fff;
+background-image:linear-gradient(#dfece5 1px,transparent 1px),linear-gradient(90deg,#eef5f1 1px,transparent 1px);
+background-size:100% 42px,42px 100%}
+#writeCanvas{position:absolute;inset:0;width:100%;height:100%;z-index:3;touch-action:none;pointer-events:none}
+#writeCanvas.draw-on{pointer-events:auto}
+.paper-hint{position:absolute;top:18px;left:20px;color:#aabbb2;font-size:15px;pointer-events:none;z-index:1}
+.write-text{position:absolute;z-index:5;min-width:100px;padding:6px 9px;border:1px dashed var(--p);background:#ffffffed;border-radius:8px;font-size:20px;touch-action:none;cursor:move}
+
+.sentence-input{width:100%;min-height:120px;margin-top:10px;padding:14px 16px;border:1px solid #cfe0d7;border-radius:14px;background:#fff;font:17px/1.7 inherit;color:#263a31;resize:vertical;box-sizing:border-box}.sentence-input:focus{outline:2px solid #9bcab2;border-color:transparent}.submitted-writing{margin-top:12px;padding:14px;border-radius:12px;background:#fff;border:1px solid #d7e6de;white-space:pre-wrap}.submitted-writing b{display:block;margin-bottom:5px}
+.logout-btn{border:1px solid #d7e6de;background:#fff;color:#385c4c;padding:9px 13px;border-radius:12px;font-weight:700;cursor:pointer;white-space:nowrap}.logout-btn:hover{background:#f2f8f5}
+
+.sentence-row{margin-top:14px}.sentence-row label{font-weight:700;font-size:14px;display:block}
+.required-note{font-weight:400;color:var(--muted)}
+.sentence-input{min-height:84px;font-family:inherit;font-size:17px;line-height:1.7;margin-top:6px}
+.grammar-actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:12px}
+.grammar-card p{line-height:1.6}.grammar-card h3{line-height:1.5}
+button:focus-visible,.choice-row input:focus-visible+span{outline:3px solid #527e69;outline-offset:3px}
+.choice-row input{display:block;position:absolute;opacity:0;width:1px;height:1px}
+.choice-row label{position:relative}button:disabled{opacity:.6;cursor:wait}
+.field-label{display:block;margin-top:12px;font-size:14px;font-weight:700}
+@media(max-width:600px){.app{padding:12px}.brand{font-size:21px}.tabs button{padding:9px 10px;font-size:12px}.audio{position:relative;top:auto}.grammar-card{padding:14px}.writebar{position:relative;top:auto}.page{padding:5px}.section h1{font-size:25px}}
+</style></head><body>
+<div class="lock" id="lock"><div class="lock-card"><div class="brand">静中寻文 · HSK2</div><h2>Bài 5 · Bài tập</h2>
+<p class="sub">Nhập tên học sinh và mật mã để bắt đầu.</p><label class="field-label" for="student">Họ và tên học sinh</label><input autocomplete="name" id="student" type="text" placeholder="Họ và tên học sinh">
+<label class="field-label" for="pass">Mật mã</label><input id="pass" type="password" placeholder="Mật mã"><button class="primary" onclick="unlock()">Vào làm bài</button><div role="alert" id="err" style="color:#b42318;margin-top:8px"></div></div></div>
+
+<div class="app"><header><div class="top"><div><div class="brand">静中寻文 · HSK2</div><div id="who" class="sub">Bài 5 · 第一次去中国朋友家</div></div>
+<div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap"><div class="tabs"><button class="active" onclick="showSec('listen',this)">🎧 听力 Phần nghe</button><button onclick="showSec('read',this)">📖 阅读 Phần đọc</button><button onclick="showSec('write',this)">✍️ 造句 Đặt câu</button></div><button class="logout-btn" onclick="logout()">↪ Đăng xuất</button></div></div></header>
+
+<section id="listen" class="section active"><h1>一、听力 · Phần nghe</h1><p class="sub">Một file nghe dài cho toàn bộ câu 1–10. Bật audio rồi cuộn xuống làm bài.</p>
+<div class="audio"><b>🎧 File nghe Bài 5</b><audio controls preload="metadata" aria-label="File nghe Bài 5" src="assets/bai-5.mp3"></audio></div>
+<div class="work"><div class="pages"><div class="page"><img src="assets/nghe-01.png" alt="Phần nghe 1 · Câu 1–2 và ví dụ" decoding="async"></div><div class="page"><img src="assets/nghe-02.png" alt="Phần nghe · Câu 3 và phần 2 · Câu 4–6" decoding="async"></div><div class="page"><img src="assets/nghe-03.png" alt="Phần nghe 3 · Câu 7–10" decoding="async"></div></div>
+<aside class="sheet"><h3>Phiếu đáp án · 1–10</h3><div class="answer" data-q="1"><b>Câu 1</b><div class="choice-row"><label><input type="radio" name="q1" value="A"><span>A</span></label><label><input type="radio" name="q1" value="B"><span>B</span></label><label><input type="radio" name="q1" value="C"><span>C</span></label></div></div><div class="answer" data-q="2"><b>Câu 2</b><div class="choice-row"><label><input type="radio" name="q2" value="A"><span>A</span></label><label><input type="radio" name="q2" value="B"><span>B</span></label><label><input type="radio" name="q2" value="C"><span>C</span></label></div></div><div class="answer" data-q="3"><b>Câu 3</b><div class="choice-row"><label><input type="radio" name="q3" value="A"><span>A</span></label><label><input type="radio" name="q3" value="B"><span>B</span></label><label><input type="radio" name="q3" value="C"><span>C</span></label></div></div><div class="answer" data-q="4"><b>Câu 4</b><div class="choice-row"><label><input type="radio" name="q4" value="A"><span>A</span></label><label><input type="radio" name="q4" value="B"><span>B</span></label><label><input type="radio" name="q4" value="C"><span>C</span></label><label><input type="radio" name="q4" value="D"><span>D</span></label></div></div><div class="answer" data-q="5"><b>Câu 5</b><div class="choice-row"><label><input type="radio" name="q5" value="A"><span>A</span></label><label><input type="radio" name="q5" value="B"><span>B</span></label><label><input type="radio" name="q5" value="C"><span>C</span></label><label><input type="radio" name="q5" value="D"><span>D</span></label></div></div><div class="answer" data-q="6"><b>Câu 6</b><div class="choice-row"><label><input type="radio" name="q6" value="A"><span>A</span></label><label><input type="radio" name="q6" value="B"><span>B</span></label><label><input type="radio" name="q6" value="C"><span>C</span></label><label><input type="radio" name="q6" value="D"><span>D</span></label></div></div><div class="answer" data-q="7"><b>Câu 7</b><div class="choice-row"><label><input type="radio" name="q7" value="A"><span>A</span></label><label><input type="radio" name="q7" value="B"><span>B</span></label><label><input type="radio" name="q7" value="C"><span>C</span></label></div></div><div class="answer" data-q="8"><b>Câu 8</b><div class="choice-row"><label><input type="radio" name="q8" value="A"><span>A</span></label><label><input type="radio" name="q8" value="B"><span>B</span></label><label><input type="radio" name="q8" value="C"><span>C</span></label></div></div><div class="answer" data-q="9"><b>Câu 9</b><div class="choice-row"><label><input type="radio" name="q9" value="A"><span>A</span></label><label><input type="radio" name="q9" value="B"><span>B</span></label><label><input type="radio" name="q9" value="C"><span>C</span></label></div></div><div class="answer" data-q="10"><b>Câu 10</b><div class="choice-row"><label><input type="radio" name="q10" value="A"><span>A</span></label><label><input type="radio" name="q10" value="B"><span>B</span></label><label><input type="radio" name="q10" value="C"><span>C</span></label></div></div></aside></div></section>
+
+<section id="read" class="section"><h1>二、阅读 · Phần đọc</h1><p class="sub">Cuộn liên tục từ câu 11 đến câu 24.</p>
+<div class="work"><div class="pages"><div class="page"><img src="assets/doc-01.png" alt="Phần đọc 1 · Câu 11–13" decoding="async"></div><div class="page"><img src="assets/doc-02.png" alt="Phần đọc 2 · Câu 14–17" decoding="async"></div><div class="page"><img src="assets/doc-03.png" alt="Phần đọc 3 · Câu 18–21" decoding="async"></div><div class="page"><img src="assets/doc-04.png" alt="Phần đọc 4 · Câu 22–24" decoding="async"></div></div>
+<aside class="sheet"><h3>Phiếu đáp án · 11–24</h3><div class="answer" data-q="11"><b>Câu 11</b><div class="choice-row"><label><input type="radio" name="q11" value="A"><span>A</span></label><label><input type="radio" name="q11" value="B"><span>B</span></label><label><input type="radio" name="q11" value="C"><span>C</span></label><label><input type="radio" name="q11" value="D"><span>D</span></label></div></div><div class="answer" data-q="12"><b>Câu 12</b><div class="choice-row"><label><input type="radio" name="q12" value="A"><span>A</span></label><label><input type="radio" name="q12" value="B"><span>B</span></label><label><input type="radio" name="q12" value="C"><span>C</span></label><label><input type="radio" name="q12" value="D"><span>D</span></label></div></div><div class="answer" data-q="13"><b>Câu 13</b><div class="choice-row"><label><input type="radio" name="q13" value="A"><span>A</span></label><label><input type="radio" name="q13" value="B"><span>B</span></label><label><input type="radio" name="q13" value="C"><span>C</span></label><label><input type="radio" name="q13" value="D"><span>D</span></label></div></div><div class="answer" data-q="14"><b>Câu 14</b><div class="choice-row"><label><input type="radio" name="q14" value="A"><span>A</span></label><label><input type="radio" name="q14" value="B"><span>B</span></label><label><input type="radio" name="q14" value="C"><span>C</span></label><label><input type="radio" name="q14" value="D"><span>D</span></label><label><input type="radio" name="q14" value="E"><span>E</span></label></div></div><div class="answer" data-q="15"><b>Câu 15</b><div class="choice-row"><label><input type="radio" name="q15" value="A"><span>A</span></label><label><input type="radio" name="q15" value="B"><span>B</span></label><label><input type="radio" name="q15" value="C"><span>C</span></label><label><input type="radio" name="q15" value="D"><span>D</span></label><label><input type="radio" name="q15" value="E"><span>E</span></label></div></div><div class="answer" data-q="16"><b>Câu 16</b><div class="choice-row"><label><input type="radio" name="q16" value="A"><span>A</span></label><label><input type="radio" name="q16" value="B"><span>B</span></label><label><input type="radio" name="q16" value="C"><span>C</span></label><label><input type="radio" name="q16" value="D"><span>D</span></label><label><input type="radio" name="q16" value="E"><span>E</span></label></div></div><div class="answer" data-q="17"><b>Câu 17</b><div class="choice-row"><label><input type="radio" name="q17" value="A"><span>A</span></label><label><input type="radio" name="q17" value="B"><span>B</span></label><label><input type="radio" name="q17" value="C"><span>C</span></label><label><input type="radio" name="q17" value="D"><span>D</span></label><label><input type="radio" name="q17" value="E"><span>E</span></label></div></div><div class="answer" data-q="18"><b>Câu 18</b><div class="choice-row"><label><input type="radio" name="q18" value="A"><span>A</span></label><label><input type="radio" name="q18" value="B"><span>B</span></label><label><input type="radio" name="q18" value="C"><span>C</span></label><label><input type="radio" name="q18" value="D"><span>D</span></label><label><input type="radio" name="q18" value="E"><span>E</span></label></div></div><div class="answer" data-q="19"><b>Câu 19</b><div class="choice-row"><label><input type="radio" name="q19" value="A"><span>A</span></label><label><input type="radio" name="q19" value="B"><span>B</span></label><label><input type="radio" name="q19" value="C"><span>C</span></label><label><input type="radio" name="q19" value="D"><span>D</span></label><label><input type="radio" name="q19" value="E"><span>E</span></label></div></div><div class="answer" data-q="20"><b>Câu 20</b><div class="choice-row"><label><input type="radio" name="q20" value="A"><span>A</span></label><label><input type="radio" name="q20" value="B"><span>B</span></label><label><input type="radio" name="q20" value="C"><span>C</span></label><label><input type="radio" name="q20" value="D"><span>D</span></label><label><input type="radio" name="q20" value="E"><span>E</span></label></div></div><div class="answer" data-q="21"><b>Câu 21</b><div class="choice-row"><label><input type="radio" name="q21" value="A"><span>A</span></label><label><input type="radio" name="q21" value="B"><span>B</span></label><label><input type="radio" name="q21" value="C"><span>C</span></label><label><input type="radio" name="q21" value="D"><span>D</span></label><label><input type="radio" name="q21" value="E"><span>E</span></label></div></div><div class="answer" data-q="22"><b>Câu 22</b><div class="choice-row"><label><input type="radio" name="q22" value="A"><span>A</span></label><label><input type="radio" name="q22" value="B"><span>B</span></label><label><input type="radio" name="q22" value="C"><span>C</span></label></div></div><div class="answer" data-q="23"><b>Câu 23</b><div class="choice-row"><label><input type="radio" name="q23" value="A"><span>A</span></label><label><input type="radio" name="q23" value="B"><span>B</span></label><label><input type="radio" name="q23" value="C"><span>C</span></label></div></div><div class="answer" data-q="24"><b>Câu 24</b><div class="choice-row"><label><input type="radio" name="q24" value="A"><span>A</span></label><label><input type="radio" name="q24" value="B"><span>B</span></label><label><input type="radio" name="q24" value="C"><span>C</span></label></div></div></aside></div></section>
+
+<section id="write" class="section">
+<h1>三、造句 · Đặt câu</h1>
+<p class="sub">Đặt câu với ngữ pháp đã học. Mỗi ngữ pháp đặt <b>tối thiểu 2 câu</b> — tổng cộng ít nhất <b>6 câu</b>.</p>
+<div class="grammar-card" data-grammar="w1">
+<h3>（1）简单趋向补语（1）· Bổ ngữ xu hướng đơn (1)</h3>
+<p>Đặt câu bằng tiếng Trung có sử dụng <b>bổ ngữ xu hướng đơn</b> theo phần <b>(1)</b> đã học. Viết <b>tối thiểu 2 câu</b>, mỗi ô một câu.</p>
+<div class="sentence-list" id="sentences-w1">
+<div class="sentence-row"><label for="w1s1">Câu 1 <span class="required-note">· Bắt buộc</span></label><textarea class="sentence-input" id="w1s1" data-writing="w1" rows="2" placeholder="Nhập câu 1 bằng tiếng Trung…" oninput="saveWritingText()"></textarea></div>
+<div class="sentence-row"><label for="w1s2">Câu 2 <span class="required-note">· Bắt buộc</span></label><textarea class="sentence-input" id="w1s2" data-writing="w1" rows="2" placeholder="Nhập câu 2 bằng tiếng Trung…" oninput="saveWritingText()"></textarea></div>
+</div>
+<div class="grammar-actions"><button type="button" onclick="addSentence('w1')">＋ Thêm câu</button><span class="smallnote" id="count-w1" aria-live="polite">0 câu đã nhập · tối thiểu 2 câu</span></div>
+</div>
+<div class="grammar-card" data-grammar="w2">
+<h3>（2）简单趋向补语（2）· Bổ ngữ xu hướng đơn (2)</h3>
+<p>Đặt câu bằng tiếng Trung có sử dụng <b>bổ ngữ xu hướng đơn</b> theo phần <b>(2)</b> đã học. Viết <b>tối thiểu 2 câu</b>, mỗi ô một câu.</p>
+<div class="sentence-list" id="sentences-w2">
+<div class="sentence-row"><label for="w2s1">Câu 1 <span class="required-note">· Bắt buộc</span></label><textarea class="sentence-input" id="w2s1" data-writing="w2" rows="2" placeholder="Nhập câu 1 bằng tiếng Trung…" oninput="saveWritingText()"></textarea></div>
+<div class="sentence-row"><label for="w2s2">Câu 2 <span class="required-note">· Bắt buộc</span></label><textarea class="sentence-input" id="w2s2" data-writing="w2" rows="2" placeholder="Nhập câu 2 bằng tiếng Trung…" oninput="saveWritingText()"></textarea></div>
+</div>
+<div class="grammar-actions"><button type="button" onclick="addSentence('w2')">＋ Thêm câu</button><span class="smallnote" id="count-w2" aria-live="polite">0 câu đã nhập · tối thiểu 2 câu</span></div>
+</div>
+<div class="grammar-card" data-grammar="w3">
+<h3>（3）都……了</h3>
+<p>Đặt câu bằng tiếng Trung có sử dụng cấu trúc <b>都……了</b> đã học. Viết <b>tối thiểu 2 câu</b>, mỗi ô một câu.</p>
+<div class="sentence-list" id="sentences-w3">
+<div class="sentence-row"><label for="w3s1">Câu 1 <span class="required-note">· Bắt buộc</span></label><textarea class="sentence-input" id="w3s1" data-writing="w3" rows="2" placeholder="Nhập câu 1 bằng tiếng Trung…" oninput="saveWritingText()"></textarea></div>
+<div class="sentence-row"><label for="w3s2">Câu 2 <span class="required-note">· Bắt buộc</span></label><textarea class="sentence-input" id="w3s2" data-writing="w3" rows="2" placeholder="Nhập câu 2 bằng tiếng Trung…" oninput="saveWritingText()"></textarea></div>
+</div>
+<div class="grammar-actions"><button type="button" onclick="addSentence('w3')">＋ Thêm câu</button><span class="smallnote" id="count-w3" aria-live="polite">0 câu đã nhập · tối thiểu 2 câu</span></div>
+</div>
+<div class="writebar">
+<button type="button" onclick="focusWritingText()">T Nhập văn bản</button>
+<button type="button" onclick="clearWritingText()">❌ Xóa văn bản</button>
+</div>
+<p class="smallnote">Nội dung đặt câu được tự động lưu trên thiết bị trong lúc làm bài. Giáo viên sẽ chấm phần đặt câu.</p>
+</section>
+
+<div class="submitbox"><h2>📤 Nộp bài</h2><p>Hãy hoàn thành 24 câu chọn đáp án và đặt ít nhất 2 câu cho mỗi ngữ pháp. Hệ thống sẽ lưu đáp án 1–24 và nội dung đặt câu. Sau khi giáo viên chấm, học sinh có thể xem điểm và nội dung đã nộp.</p>
+<button id="submitButton" class="primary" onclick="submitWork()">Nộp bài</button> <button onclick="checkGrade()">Xem điểm đã chấm</button><div id="status" class="status" role="status" aria-live="polite"></div></div></div>
+
+<script>
+
+const PASSWORD='jzhxw';
+const BASE_STORAGE='hsk2-b5-exercise-v1';
+const BASE_WRITE_STORAGE='hsk2-b5-writing-v1';
+const BASE_SUBMIT_STORAGE='hsk2-b5-submit-v1';
+const SESSION_KEY='hsk2-b5-student';
+const LESSON_LABEL='Bài 5 · 第一次去中国朋友家';
+const GRAMMAR_KEYS=['w1','w2','w3'];
+const GRAMMAR_LABELS=['简单趋向补语（1）· Bổ ngữ xu hướng đơn (1)','简单趋向补语（2）· Bổ ngữ xu hướng đơn (2)','都……了'];
+// Dùng cùng hệ thống nộp bài với index mẫu; gửi lesson: 5.
+const SCRIPT_URL='https://script.google.com/macros/s/AKfycbxjmcG-ZJf_FJFhSCob_MCSCABZ9-rmlrX2zim9QThR0K87rmkdYGByqTBubmy09f5kNA/exec';
+function escapeHtml(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function studentKey(name){return encodeURIComponent(String(name||'').trim().toLocaleLowerCase());}
+function currentName(){return sessionStorage.getItem(SESSION_KEY)||'';}
+function keyFor(base,name){return base+'::'+studentKey(name||currentName());}
+function readSaved(key,fallback){try{return JSON.parse(localStorage.getItem(key)||'null')??fallback;}catch(e){return fallback;}}
+function setStatus(message){const box=document.getElementById('status');box.style.display='block';box.innerHTML=message;}
+function writingFields(key){return [...document.querySelectorAll('textarea[data-writing="'+key+'"]')];}
+function addSentence(key,focus=true){
+ if(!GRAMMAR_KEYS.includes(key))return;
+ const n=writingFields(key).length+1;
+ const row=document.createElement('div');row.className='sentence-row';
+ const label=document.createElement('label');label.htmlFor=key+'s'+n;label.textContent='Câu '+n+' · Thêm';
+ const field=document.createElement('textarea');field.className='sentence-input';field.id=label.htmlFor;field.dataset.writing=key;field.rows=2;field.placeholder='Nhập câu '+n+' bằng tiếng Trung…';field.addEventListener('input',saveWritingText);
+ row.append(label,field);document.getElementById('sentences-'+key).append(row);
+ if(focus){field.focus();saveWritingText();}
+ return field;
+}
+function resetWriting(){GRAMMAR_KEYS.forEach(key=>writingFields(key).forEach((field,i)=>{if(i>=2)field.parentElement.remove();else field.value='';}));updateWritingCounts();}
+function updateWritingCounts(){GRAMMAR_KEYS.forEach(key=>{const count=writingFields(key).filter(field=>field.value.trim()).length;document.getElementById('count-'+key).textContent=count+' câu đã nhập · tối thiểu 2 câu';});}
+function getWritingRows(){return Object.fromEntries(GRAMMAR_KEYS.map(key=>[key,writingFields(key).map(field=>field.value.trim())]));}
+function getWritingText(){const rows=getWritingRows();return Object.fromEntries(GRAMMAR_KEYS.map(key=>[key,rows[key].filter(Boolean).map(text=>text.replace(/\s*\n\s*/g,' ')).join('\n')]));}
+function saveWritingText(){updateWritingCounts();const n=currentName();if(n)localStorage.setItem(keyFor(BASE_WRITE_STORAGE,n),JSON.stringify(getWritingRows()));}
+function restoreStudentData(name){
+ document.querySelectorAll('input[type=radio]').forEach(r=>r.checked=false);
+ const answers=readSaved(keyFor(BASE_STORAGE,name),{});
+ document.querySelectorAll('input[type=radio]').forEach(r=>r.checked=answers[r.name]===r.value);
+ resetWriting();const rows=readSaved(keyFor(BASE_WRITE_STORAGE,name),{});
+ GRAMMAR_KEYS.forEach(key=>{const values=Array.isArray(rows[key])?rows[key]:String(rows[key]||'').split('\n');values.forEach((v,i)=>{const field=writingFields(key)[i]||addSentence(key,false);field.value=v||'';});});
+ updateWritingCounts();const box=document.getElementById('status');box.innerHTML='';box.style.display='none';
+ const last=readSaved(keyFor(BASE_SUBMIT_STORAGE,name),null);
+ if(last?.code)setStatus('📌 Mã bài đã lưu: <b>'+escapeHtml(last.code)+'</b><br><span class="sub">Có thể bấm “Xem điểm đã chấm” để kiểm tra kết quả.</span>');
+}
+function unlock(){
+ const n=document.getElementById('student').value.trim();
+ const err=document.getElementById('err');
+ if(!n){err.textContent='Vui lòng nhập họ và tên.';return;}
+ if(document.getElementById('pass').value!==PASSWORD){err.textContent='Mật mã chưa đúng.';return;}
+ sessionStorage.setItem(SESSION_KEY,n);document.getElementById('lock').style.display='none';
+ document.getElementById('who').textContent=n+' · '+LESSON_LABEL;err.textContent='';restoreStudentData(n);
+}
+function logout(){
+ if(!confirm('Đăng xuất khỏi tài khoản học sinh hiện tại? Bài đang làm, mã bài đã nộp và kết quả vẫn được giữ riêng theo tên học sinh trên thiết bị này.'))return;
+ if(currentName()){saveDraft();saveWritingText();}sessionStorage.removeItem(SESSION_KEY);
+ document.querySelectorAll('input[type=radio]').forEach(r=>r.checked=false);resetWriting();
+ const box=document.getElementById('status');box.innerHTML='';box.style.display='none';
+ ['student','pass','err'].forEach(id=>{const el=document.getElementById(id);if(id==='err')el.textContent='';else el.value='';});
+ document.querySelector('audio').pause();document.getElementById('lock').style.display='grid';document.getElementById('who').textContent=LESSON_LABEL;window.scrollTo({top:0,behavior:'smooth'});
+}
+function showSec(id,b){document.querySelectorAll('.section').forEach(x=>x.classList.toggle('active',x.id===id));document.querySelectorAll('.tabs button').forEach(x=>x.classList.toggle('active',x===b));scrollTo({top:0,behavior:'smooth'});}
+function saveDraft(){const n=currentName();if(!n)return;const a={};document.querySelectorAll('input[type=radio]:checked').forEach(r=>a[r.name]=r.value);localStorage.setItem(keyFor(BASE_STORAGE,n),JSON.stringify(a));}
+function focusWritingText(){const el=[...document.querySelectorAll('textarea[data-writing]')].find(x=>!x.value.trim())||document.querySelector('textarea[data-writing]');el.focus();el.scrollIntoView({behavior:'smooth',block:'center'});}
+function clearWritingText(){if(!confirm('Xóa toàn bộ nội dung đặt câu?'))return;resetWriting();saveWritingText();}
+function writingTextForSubmit(){return JSON.stringify(getWritingText());}
+function formatWritingData(v){
+ if(!v)return '';let d=v;try{if(typeof v==='string')d=JSON.parse(v);}catch(e){}
+ if(d&&typeof d==='object')return GRAMMAR_KEYS.map((key,i)=>d[key]?'<div class="submitted-writing"><b>'+(i+1)+'. '+GRAMMAR_LABELS[i]+'</b>'+escapeHtml(Array.isArray(d[key])?d[key].join('\n'):d[key])+'</div>':'').join('');
+ return '<div class="submitted-writing">'+escapeHtml(v)+'</div>';
+}
+async function requestJson(url,options={}){
+ const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),25000);
+ try{const res=await fetch(url,{...options,signal:controller.signal});if(!res.ok)throw new Error('Máy chủ trả về lỗi '+res.status);const data=await res.json();if(!data.ok)throw new Error(data.error||'Không thể xử lý yêu cầu');return data;}
+ catch(e){if(e.name==='AbortError')throw new Error('Kết nối quá lâu. Vui lòng thử lại.');throw e;}
+ finally{clearTimeout(timer);}
+}
+async function submitWork(){
+ const checked=[...document.querySelectorAll('input[type=radio]:checked')];
+ if(!currentName()){setStatus('⚠️ Hãy nhập tên học sinh và mật mã để bắt đầu.');return;}
+ if(checked.length<24){setStatus('⚠️ Bạn mới làm <b>'+checked.length+'/24</b> câu chọn đáp án. Hãy hoàn thành trước khi nộp.');return;}
+ const incomplete=GRAMMAR_KEYS.find(key=>writingFields(key).slice(0,2).some(field=>!field.value.trim()));
+ if(incomplete){setStatus('⚠️ Phần đặt câu: <b>'+GRAMMAR_LABELS[GRAMMAR_KEYS.indexOf(incomplete)]+'</b> cần ít nhất 2 câu. Hãy điền đủ Câu 1 và Câu 2.');return;}
+ const button=document.getElementById('submitButton');if(button.disabled)return;button.disabled=true;
+ saveDraft();saveWritingText();setStatus('⏳ Đang gửi bài lên hệ thống…');
+ try{
+  const answers={};checked.forEach(r=>answers[r.name]=r.value);
+  const payload={action:'submit',studentName:currentName(),lesson:5,answers,writingData:writingTextForSubmit()};
+  const data=await requestJson(SCRIPT_URL,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(payload)});
+  if(!data.submissionId)throw new Error('Máy chủ chưa trả về mã bài nộp.');
+  localStorage.setItem(keyFor(BASE_SUBMIT_STORAGE,payload.studentName),JSON.stringify({code:data.submissionId,name:payload.studentName,time:new Date().toISOString()}));
+  setStatus('✅ <b>Đã nộp bài · Chờ giáo viên chấm</b><br>Mã bài nộp: <b>'+escapeHtml(data.submissionId)+'</b><br><span class="sub">Nội dung đặt câu đã được gửi cùng bài làm.</span>');
+ }catch(e){setStatus('❌ <b>Chưa gửi được bài.</b><br>'+escapeHtml(e.message||e)+'<br><span class="sub">Bài làm vẫn được giữ trên thiết bị. Kiểm tra kết nối rồi thử nộp lại.</span>');}
+ finally{button.disabled=false;}
+}
+async function checkGrade(){
+ const saved=readSaved(keyFor(BASE_SUBMIT_STORAGE,currentName()),null);
+ if(!saved?.code){setStatus('⚠️ Chưa tìm thấy mã bài nộp trên thiết bị này. Hãy nộp bài trước.');return;}
+ setStatus('⏳ Đang kiểm tra kết quả…');
+ try{
+  const data=await requestJson(SCRIPT_URL+'?action=result&submissionId='+encodeURIComponent(saved.code));
+  if(data.status!=='Đã chấm'){setStatus('🕒 <b>'+escapeHtml(saved.code)+'</b><br>Trạng thái: <b>'+escapeHtml(data.status||'Chờ chấm')+'</b>. Giáo viên chưa hoàn tất chấm bài.');return;}
+  const writingHtml=data.writingData?'<br><br><b>📝 Nội dung đặt câu đã nộp:</b>'+formatWritingData(data.writingData):'';
+  setStatus('🎉 <b>Đã chấm</b><br>Điểm: <b>'+escapeHtml(data.score??'')+'</b><br>Nhận xét: '+escapeHtml(data.feedback||'Không có nhận xét.')+writingHtml);
+ }catch(e){setStatus('❌ Không kiểm tra được kết quả: '+escapeHtml(e.message||e));}
+}
+document.querySelectorAll('input[type=radio]').forEach(r=>r.addEventListener('change',saveDraft));
+['student','pass'].forEach(id=>document.getElementById(id).addEventListener('keydown',e=>{if(e.key==='Enter')unlock();}));
+if(currentName()){const n=currentName();document.getElementById('lock').style.display='none';document.getElementById('who').textContent=n+' · '+LESSON_LABEL;restoreStudentData(n);}
+updateWritingCounts();
+
+</script></body></html>
