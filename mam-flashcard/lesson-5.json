@@ -1,0 +1,294 @@
+{
+  "lesson": {
+    "id": "hsk2-b5",
+    "name": "Bài 5",
+    "title": "第一次去中国朋友家",
+    "translation": "Lần đầu đến thăm nhà bạn người Trung Quốc",
+    "level": "HSK 2"
+  },
+  "words": [
+    {
+      "id": "hsk2-b5-快",
+      "han": "快",
+      "py": "kuài",
+      "vi": "mau, nhanh",
+      "pos": "phó/tính từ",
+      "ex": "你快点儿吧。",
+      "exPy": "Nǐ kuài diǎnr ba.",
+      "tr": "Bạn nhanh lên một chút nhé.",
+      "collocations": [
+        "快点儿",
+        "快下来"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b5"
+    },
+    {
+      "id": "hsk2-b5-下来",
+      "han": "下来",
+      "py": "xiàlái",
+      "vi": "xuống, xuống dưới, xuống đây",
+      "pos": "động từ",
+      "ex": "家月，快下来吧。",
+      "exPy": "Jiāyuè, kuài xiàlái ba.",
+      "tr": "Gia Nguyệt, mau xuống nhé.",
+      "collocations": [
+        "走下来",
+        "拿下来"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b5"
+    },
+    {
+      "id": "hsk2-b5-上来",
+      "han": "上来",
+      "py": "shànglái",
+      "vi": "lên, lên trên, lên đây",
+      "pos": "động từ",
+      "ex": "还有时间，你上来吧。",
+      "exPy": "Hái yǒu shíjiān, nǐ shànglái ba.",
+      "tr": "Vẫn còn thời gian, bạn lên đây đi.",
+      "collocations": [
+        "走上来"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b5"
+    },
+    {
+      "id": "hsk2-b5-上去",
+      "han": "上去",
+      "py": "shàngqù",
+      "vi": "lên, lên trên, lên đi",
+      "pos": "động từ",
+      "ex": "我不上去了。",
+      "exPy": "Wǒ bú shàngqù le.",
+      "tr": "Mình không lên nữa.",
+      "collocations": [
+        "走上去"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b5"
+    },
+    {
+      "id": "hsk2-b5-下面",
+      "han": "下面",
+      "py": "xiàmiàn",
+      "vi": "dưới, phía dưới",
+      "pos": "danh từ",
+      "ex": "我就在下面等你。",
+      "exPy": "Wǒ jiù zài xiàmiàn děng nǐ.",
+      "tr": "Mình đợi bạn ở dưới này.",
+      "collocations": [
+        "在下面",
+        "桌子下面"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b5"
+    },
+    {
+      "id": "hsk2-b5-面",
+      "han": "面",
+      "py": "miàn",
+      "vi": "phía",
+      "pos": "hậu tố",
+      "ex": "我在下面等你。",
+      "exPy": "Wǒ zài xiàmiàn děng nǐ.",
+      "tr": "Mình đợi bạn ở phía dưới.",
+      "collocations": [
+        "上面",
+        "下面",
+        "里面"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b5"
+    },
+    {
+      "id": "hsk2-b5-等",
+      "han": "等",
+      "py": "děng",
+      "vi": "đợi",
+      "pos": "động từ",
+      "ex": "我在下面等你。",
+      "exPy": "Wǒ zài xiàmiàn děng nǐ.",
+      "tr": "Mình đợi bạn ở dưới.",
+      "collocations": [
+        "等你",
+        "等一下"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b5"
+    },
+    {
+      "id": "hsk2-b5-一会儿",
+      "han": "一会儿",
+      "py": "yíhuìr",
+      "vi": "một lát",
+      "pos": "số lượng",
+      "ex": "那我一会儿就下去。",
+      "exPy": "Nà wǒ yíhuìr jiù xiàqù.",
+      "tr": "Vậy một lát nữa mình sẽ xuống.",
+      "collocations": [
+        "等一会儿"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b5"
+    },
+    {
+      "id": "hsk2-b5-下去",
+      "han": "下去",
+      "py": "xiàqù",
+      "vi": "xuống, đi xuống, xuống kia",
+      "pos": "động từ",
+      "ex": "我一会儿就下去。",
+      "exPy": "Wǒ yíhuìr jiù xiàqù.",
+      "tr": "Một lát nữa mình sẽ xuống.",
+      "collocations": [
+        "走下去"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b5"
+    },
+    {
+      "id": "hsk2-b5-进来",
+      "han": "进来",
+      "py": "jìnlái",
+      "vi": "vào, đi vào, vào đây",
+      "pos": "động từ",
+      "ex": "家月、安妮，快进来！",
+      "exPy": "Jiāyuè, Ānnī, kuài jìnlái!",
+      "tr": "Gia Nguyệt, Annie, mau vào đi!",
+      "collocations": [
+        "快进来",
+        "走进来"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b5"
+    },
+    {
+      "id": "hsk2-b5-爷爷",
+      "han": "爷爷",
+      "py": "yéye",
+      "vi": "ông nội",
+      "pos": "danh từ",
+      "ex": "这是孩子们的爷爷。",
+      "exPy": "Zhè shì háizimen de yéye.",
+      "tr": "Đây là ông nội của các em nhỏ.",
+      "collocations": [
+        "爷爷奶奶"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b5"
+    },
+    {
+      "id": "hsk2-b5-奶奶",
+      "han": "奶奶",
+      "py": "nǎinai",
+      "vi": "bà nội",
+      "pos": "danh từ",
+      "ex": "这是孩子们的奶奶。",
+      "exPy": "Zhè shì háizimen de nǎinai.",
+      "tr": "Đây là bà nội của các em nhỏ.",
+      "collocations": [
+        "爷爷奶奶"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b5"
+    },
+    {
+      "id": "hsk2-b5-礼物",
+      "han": "礼物",
+      "py": "lǐwù",
+      "vi": "quà, quà tặng",
+      "pos": "danh từ",
+      "ex": "这是送你们的礼物。",
+      "exPy": "Zhè shì sòng nǐmen de lǐwù.",
+      "tr": "Đây là quà tặng các bạn.",
+      "collocations": [
+        "准备礼物",
+        "送礼物"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b5"
+    },
+    {
+      "id": "hsk2-b5-准备",
+      "han": "准备",
+      "py": "zhǔnbèi",
+      "vi": "chuẩn bị",
+      "pos": "động từ",
+      "ex": "这是给孩子们准备的礼物。",
+      "exPy": "Zhè shì gěi háizimen zhǔnbèi de lǐwù.",
+      "tr": "Đây là quà chuẩn bị cho các em nhỏ.",
+      "collocations": [
+        "准备礼物",
+        "准备奶茶"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b5"
+    },
+    {
+      "id": "hsk2-b5-奶茶",
+      "han": "奶茶",
+      "py": "nǎichá",
+      "vi": "trà sữa",
+      "pos": "danh từ",
+      "ex": "奶茶也很好喝。",
+      "exPy": "Nǎichá yě hěn hǎohē.",
+      "tr": "Trà sữa cũng rất ngon.",
+      "collocations": [
+        "喝奶茶",
+        "买奶茶"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b5"
+    },
+    {
+      "id": "hsk2-b5-跟",
+      "han": "跟",
+      "py": "gēn",
+      "vi": "với, và",
+      "pos": "giới/liên từ",
+      "ex": "你们可以跟我去看看。",
+      "exPy": "Nǐmen kěyǐ gēn wǒ qù kànkan.",
+      "tr": "Các em có thể cùng chị đi xem.",
+      "collocations": [
+        "跟我来",
+        "跟朋友"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b5"
+    },
+    {
+      "id": "hsk2-b5-走",
+      "han": "走",
+      "py": "zǒu",
+      "vi": "đi bộ, đi",
+      "pos": "động từ",
+      "ex": "我们吃完饭是走回酒店的。",
+      "exPy": "Wǒmen chīwán fàn shì zǒu huí jiǔdiàn de.",
+      "tr": "Ăn xong chúng tôi đi bộ về khách sạn.",
+      "collocations": [
+        "走回去",
+        "走路"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b5"
+    },
+    {
+      "id": "hsk2-b5-酒店",
+      "han": "酒店",
+      "py": "jiǔdiàn",
+      "vi": "khách sạn",
+      "pos": "danh từ",
+      "ex": "我们走回酒店。",
+      "exPy": "Wǒmen zǒu huí jiǔdiàn.",
+      "tr": "Chúng tôi đi bộ về khách sạn.",
+      "collocations": [
+        "回酒店",
+        "住酒店"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b5"
+    }
+  ]
+}

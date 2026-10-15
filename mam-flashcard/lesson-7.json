@@ -1,0 +1,251 @@
+{
+  "lesson": {
+    "id": "hsk2-b7",
+    "name": "Bài 7",
+    "title": "他篮球打得很好",
+    "translation": "Bạn ấy chơi bóng rổ rất hay",
+    "level": "HSK 2"
+  },
+  "words": [
+    {
+      "id": "hsk2-b7-从",
+      "han": "从",
+      "py": "cóng",
+      "vi": "từ",
+      "pos": "giới từ",
+      "ex": "安妮，你是什么时候从北京回来的？",
+      "exPy": "Ānnī, nǐ shì shénme shíhou cóng Běijīng huílai de?",
+      "tr": "Annie, bạn từ Bắc Kinh về khi nào vậy?",
+      "collocations": [
+        "从北京回来",
+        "从这里开始"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b7"
+    },
+    {
+      "id": "hsk2-b7-往",
+      "han": "往",
+      "py": "wǎng",
+      "vi": "hướng tới, đi đến, về phía",
+      "pos": "giới từ/động từ",
+      "ex": "怎么一下课就往外跑？",
+      "exPy": "Zěnme yí xiàkè jiù wǎng wài pǎo?",
+      "tr": "Sao vừa tan học bạn đã chạy ra ngoài ngay vậy?",
+      "collocations": [
+        "往外跑",
+        "往前走"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b7"
+    },
+    {
+      "id": "hsk2-b7-跑",
+      "han": "跑",
+      "py": "pǎo",
+      "vi": "chạy",
+      "pos": "động từ",
+      "ex": "一下课就往外跑。",
+      "exPy": "Yí xiàkè jiù wǎng wài pǎo.",
+      "tr": "Vừa tan học là chạy ra ngoài.",
+      "collocations": [
+        "跑出去",
+        "跑得快"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b7"
+    },
+    {
+      "id": "hsk2-b7-打",
+      "han": "打",
+      "py": "dǎ",
+      "vi": "đánh, chơi (thể thao)",
+      "pos": "động từ",
+      "ex": "一起去打篮球。",
+      "exPy": "Yìqǐ qù dǎ lánqiú.",
+      "tr": "Cùng đi chơi bóng rổ.",
+      "collocations": [
+        "打篮球",
+        "打得很好"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b7"
+    },
+    {
+      "id": "hsk2-b7-篮球",
+      "han": "篮球",
+      "py": "lánqiú",
+      "vi": "bóng rổ",
+      "pos": "danh từ",
+      "ex": "你是不是很喜欢打篮球？",
+      "exPy": "Nǐ shì bu shì hěn xǐhuan dǎ lánqiú?",
+      "tr": "Có phải bạn rất thích chơi bóng rổ không?",
+      "collocations": [
+        "打篮球",
+        "篮球打得很好"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b7"
+    },
+    {
+      "id": "hsk2-b7-运动",
+      "han": "运动",
+      "py": "yùndòng",
+      "vi": "thể thao; vận động, tập thể dục",
+      "pos": "danh từ/động từ",
+      "ex": "你还喜欢什么运动？",
+      "exPy": "Nǐ hái xǐhuan shénme yùndòng?",
+      "tr": "Bạn còn thích môn thể thao nào khác?",
+      "collocations": [
+        "喜欢运动",
+        "去运动"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b7"
+    },
+    {
+      "id": "hsk2-b7-踢",
+      "han": "踢",
+      "py": "tī",
+      "vi": "đá",
+      "pos": "động từ",
+      "ex": "我还喜欢踢足球。",
+      "exPy": "Wǒ hái xǐhuan tī zúqiú.",
+      "tr": "Mình còn thích chơi bóng đá.",
+      "collocations": [
+        "踢足球",
+        "踢得还可以"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b7"
+    },
+    {
+      "id": "hsk2-b7-足球",
+      "han": "足球",
+      "py": "zúqiú",
+      "vi": "bóng đá",
+      "pos": "danh từ",
+      "ex": "我还喜欢踢足球。",
+      "exPy": "Wǒ hái xǐhuan tī zúqiú.",
+      "tr": "Mình còn thích chơi bóng đá.",
+      "collocations": [
+        "足球",
+        "踢足球"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b7"
+    },
+    {
+      "id": "hsk2-b7-球",
+      "han": "球",
+      "py": "qiú",
+      "vi": "quả bóng",
+      "pos": "danh từ",
+      "ex": "你踢球踢得怎么样？",
+      "exPy": "Nǐ tī qiú tī de zěnmeyàng?",
+      "tr": "Bạn đá bóng thế nào?",
+      "collocations": [
+        "踢球",
+        "打球"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b7"
+    },
+    {
+      "id": "hsk2-b7-得",
+      "han": "得",
+      "py": "de",
+      "vi": "đứng giữa động từ/tính từ và bổ ngữ kết quả/trình độ",
+      "pos": "trợ từ",
+      "ex": "我踢得还可以。",
+      "exPy": "Wǒ tī de hái kěyǐ.",
+      "tr": "Mình chơi cũng tạm tạm.",
+      "collocations": [
+        "跑得快",
+        "玩得高兴"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b7"
+    },
+    {
+      "id": "hsk2-b7-跑步",
+      "han": "跑步",
+      "py": "pǎobù",
+      "vi": "chạy bộ",
+      "pos": "động từ",
+      "ex": "跑步呢？你跑得快不快？",
+      "exPy": "Pǎobù ne? Nǐ pǎo de kuài bu kuài?",
+      "tr": "Còn chạy bộ? Bạn chạy có nhanh không?",
+      "collocations": [
+        "喜欢跑步",
+        "跑步跑得快"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b7"
+    },
+    {
+      "id": "hsk2-b7-游泳",
+      "han": "游泳",
+      "py": "yóuyǒng",
+      "vi": "bơi, bơi lội",
+      "pos": "động từ",
+      "ex": "那你喜欢游泳吗？",
+      "exPy": "Nà nǐ xǐhuan yóuyǒng ma?",
+      "tr": "Vậy bạn có thích bơi không?",
+      "collocations": [
+        "喜欢游泳",
+        "游泳游得快"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b7"
+    },
+    {
+      "id": "hsk2-b7-游",
+      "han": "游",
+      "py": "yóu",
+      "vi": "bơi, bơi lội",
+      "pos": "động từ",
+      "ex": "我游泳游得不快。",
+      "exPy": "Wǒ yóuyǒng yóu de bù kuài.",
+      "tr": "Mình bơi không nhanh.",
+      "collocations": [
+        "游得快",
+        "游得不快"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b7"
+    },
+    {
+      "id": "hsk2-b7-爱好",
+      "han": "爱好",
+      "py": "àihào",
+      "vi": "sở thích; thích",
+      "pos": "danh từ/động từ",
+      "ex": "我的爱好是运动。",
+      "exPy": "Wǒ de àihào shì yùndòng.",
+      "tr": "Sở thích của tôi là thể thao.",
+      "collocations": [
+        "我的爱好",
+        "爱好运动"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b7"
+    },
+    {
+      "id": "hsk2-b7-开始",
+      "han": "开始",
+      "py": "kāishǐ",
+      "vi": "bắt đầu, lúc đầu",
+      "pos": "động từ/danh từ",
+      "ex": "从上小学开始。",
+      "exPy": "Cóng shàng xiǎoxué kāishǐ.",
+      "tr": "Bắt đầu từ khi học tiểu học.",
+      "collocations": [
+        "从…开始",
+        "开始运动"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b7"
+    }
+  ]
+}

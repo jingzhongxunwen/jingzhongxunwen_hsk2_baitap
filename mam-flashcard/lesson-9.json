@@ -1,0 +1,232 @@
+{
+  "lesson": {
+    "id": "hsk2-b9",
+    "name": "Bài 9",
+    "title": "我去买杯奶茶",
+    "translation": "Em đi mua một cốc trà sữa",
+    "level": "HSK 2"
+  },
+  "words": [
+    {
+      "id": "hsk2-b9-坏",
+      "han": "坏",
+      "py": "huài",
+      "vi": "xấu, hỏng",
+      "pos": "",
+      "ex": "我的手机坏了。",
+      "exPy": "Wǒ de shǒujī huài le.",
+      "tr": "Điện thoại của tôi bị hỏng rồi.",
+      "collocations": [
+        "坏了",
+        "手机坏了",
+        "东西坏了"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b9"
+    },
+    {
+      "id": "hsk2-b9-旁边",
+      "han": "旁边",
+      "py": "pángbiān",
+      "vi": "bên cạnh",
+      "pos": "",
+      "ex": "学校旁边有一家咖啡店。",
+      "exPy": "Xuéxiào pángbiān yǒu yì jiā kāfēidiàn.",
+      "tr": "Bên cạnh trường có một quán cà phê.",
+      "collocations": [
+        "学校旁边",
+        "在旁边",
+        "旁边的人"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b9"
+    },
+    {
+      "id": "hsk2-b9-男孩儿",
+      "han": "男孩儿",
+      "py": "nánháir",
+      "vi": "con trai, cậu bé",
+      "pos": "",
+      "ex": "那个男孩儿个子很高。",
+      "exPy": "Nàge nánháir gèzi hěn gāo.",
+      "tr": "Cậu bé kia rất cao.",
+      "collocations": [
+        "那个男孩儿",
+        "小男孩儿",
+        "男孩儿的个子"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b9"
+    },
+    {
+      "id": "hsk2-b9-这样",
+      "han": "这样",
+      "py": "zhèyàng",
+      "vi": "như thế này",
+      "pos": "",
+      "ex": "我喜欢这样的裤子。",
+      "exPy": "Wǒ xǐhuan zhèyàng de kùzi.",
+      "tr": "Tôi thích kiểu quần như thế này.",
+      "collocations": [
+        "这样的人",
+        "这样的衣服",
+        "不要这样"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b9"
+    },
+    {
+      "id": "hsk2-b9-个子",
+      "han": "个子",
+      "py": "gèzi",
+      "vi": "chiều cao",
+      "pos": "",
+      "ex": "他的个子很高。",
+      "exPy": "Tā de gèzi hěn gāo.",
+      "tr": "Anh ấy rất cao.",
+      "collocations": [
+        "个子高",
+        "个子不高",
+        "个子一样高"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b9"
+    },
+    {
+      "id": "hsk2-b9-那么",
+      "han": "那么",
+      "py": "nàme",
+      "vi": "như thế, vậy",
+      "pos": "",
+      "ex": "今天没有昨天那么冷。",
+      "exPy": "Jīntiān méiyǒu zuótiān nàme lěng.",
+      "tr": "Hôm nay không lạnh như hôm qua.",
+      "collocations": [
+        "那么高",
+        "那么好",
+        "没有那么冷"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b9"
+    },
+    {
+      "id": "hsk2-b9-高",
+      "han": "高",
+      "py": "gāo",
+      "vi": "cao",
+      "pos": "",
+      "ex": "这个男孩儿很高。",
+      "exPy": "Zhège nánháir hěn gāo.",
+      "tr": "Cậu bé này rất cao.",
+      "collocations": [
+        "很高",
+        "个子高",
+        "没有他高"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b9"
+    },
+    {
+      "id": "hsk2-b9-门口",
+      "han": "门口",
+      "py": "ménkǒu",
+      "vi": "cửa ra vào, cổng",
+      "pos": "",
+      "ex": "我在门口等你。",
+      "exPy": "Wǒ zài ménkǒu děng nǐ.",
+      "tr": "Tôi đợi bạn ở cửa.",
+      "collocations": [
+        "在门口",
+        "学校门口",
+        "门口有…"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b9"
+    },
+    {
+      "id": "hsk2-b9-咖啡",
+      "han": "咖啡",
+      "py": "kāfēi",
+      "vi": "cà phê",
+      "pos": "",
+      "ex": "我想喝一杯咖啡。",
+      "exPy": "Wǒ xiǎng hē yì bēi kāfēi.",
+      "tr": "Tôi muốn uống một cốc cà phê.",
+      "collocations": [
+        "喝咖啡",
+        "一杯咖啡",
+        "咖啡店"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b9"
+    },
+    {
+      "id": "hsk2-b9-离",
+      "han": "离",
+      "py": "lí",
+      "vi": "cách, cách xa",
+      "pos": "",
+      "ex": "我家离学校很近。",
+      "exPy": "Wǒ jiā lí xuéxiào hěn jìn.",
+      "tr": "Nhà tôi cách trường rất gần.",
+      "collocations": [
+        "离家近",
+        "离学校远",
+        "离这儿不远"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b9"
+    },
+    {
+      "id": "hsk2-b9-近",
+      "han": "近",
+      "py": "jìn",
+      "vi": "gần",
+      "pos": "",
+      "ex": "咖啡店离这儿很近。",
+      "exPy": "Kāfēidiàn lí zhèr hěn jìn.",
+      "tr": "Quán cà phê cách đây rất gần.",
+      "collocations": [
+        "很近",
+        "离家近",
+        "最近"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b9"
+    },
+    {
+      "id": "hsk2-b9-走路",
+      "han": "走路",
+      "py": "zǒulù",
+      "vi": "đi bộ",
+      "pos": "",
+      "ex": "我们走路回家吧。",
+      "exPy": "Wǒmen zǒulù huí jiā ba.",
+      "tr": "Chúng ta đi bộ về nhà nhé.",
+      "collocations": [
+        "走路回家",
+        "走路上班",
+        "走路去"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b9"
+    },
+    {
+      "id": "hsk2-b9-周",
+      "han": "周",
+      "py": "zhōu",
+      "vi": "tuần",
+      "pos": "",
+      "ex": "这周我休息。",
+      "exPy": "Zhè zhōu wǒ xiūxi.",
+      "tr": "Tuần này tôi được nghỉ.",
+      "collocations": [
+        "这周",
+        "上周",
+        "下周"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b9"
+    }
+  ]
+}

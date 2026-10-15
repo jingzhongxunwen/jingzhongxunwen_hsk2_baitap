@@ -1,0 +1,249 @@
+{
+  "lesson": {
+    "id": "hsk2-b10",
+    "name": "Bài 10",
+    "title": "就要考试了",
+    "translation": "Sắp thi rồi",
+    "level": "HSK 2"
+  },
+  "words": [
+    {
+      "id": "hsk2-b10-开学",
+      "han": "开学",
+      "py": "kāixué",
+      "vi": "khai giảng",
+      "pos": "",
+      "ex": "我们下星期就要开学了。",
+      "exPy": "Wǒmen xià xīngqī jiù yào kāixué le.",
+      "tr": "Tuần sau chúng tôi sắp khai giảng rồi.",
+      "collocations": [
+        "快要开学",
+        "明天开学",
+        "开学了"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b10"
+    },
+    {
+      "id": "hsk2-b10-门",
+      "han": "门",
+      "py": "mén",
+      "vi": "cửa",
+      "pos": "",
+      "ex": "书包在门后面。",
+      "exPy": "Shūbāo zài mén hòumian.",
+      "tr": "Cặp sách ở phía sau cửa.",
+      "collocations": [
+        "门口",
+        "门后面",
+        "开门"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b10"
+    },
+    {
+      "id": "hsk2-b10-后面",
+      "han": "后面",
+      "py": "hòumiàn",
+      "vi": "phía sau, đằng sau",
+      "pos": "",
+      "ex": "学校后面有一个商店。",
+      "exPy": "Xuéxiào hòumian yǒu yí ge shāngdiàn.",
+      "tr": "Phía sau trường có một cửa hàng.",
+      "collocations": [
+        "门后面",
+        "学校后面",
+        "后面有…"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b10"
+    },
+    {
+      "id": "hsk2-b10-笔",
+      "han": "笔",
+      "py": "bǐ",
+      "vi": "bút, viết",
+      "pos": "",
+      "ex": "我的笔在桌子上。",
+      "exPy": "Wǒ de bǐ zài zhuōzi shàng.",
+      "tr": "Bút của tôi ở trên bàn.",
+      "collocations": [
+        "一支笔",
+        "买笔",
+        "用笔写字"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b10"
+    },
+    {
+      "id": "hsk2-b10-帮",
+      "han": "帮",
+      "py": "bāng",
+      "vi": "giúp, giúp đỡ",
+      "pos": "",
+      "ex": "爸爸帮我准备书包。",
+      "exPy": "Bàba bāng wǒ zhǔnbèi shūbāo.",
+      "tr": "Bố giúp tôi chuẩn bị cặp sách.",
+      "collocations": [
+        "帮我",
+        "帮你准备",
+        "帮忙"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b10"
+    },
+    {
+      "id": "hsk2-b10-考试",
+      "han": "考试",
+      "py": "kǎoshì",
+      "vi": "thi, kiểm tra; kỳ thi",
+      "pos": "",
+      "ex": "明天我们要考试。",
+      "exPy": "Míngtiān wǒmen yào kǎoshì.",
+      "tr": "Ngày mai chúng tôi thi.",
+      "collocations": [
+        "准备考试",
+        "明天考试",
+        "考试考得好"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b10"
+    },
+    {
+      "id": "hsk2-b10-词",
+      "han": "词",
+      "py": "cí",
+      "vi": "từ",
+      "pos": "",
+      "ex": "这些词我都懂了。",
+      "exPy": "Zhèxiē cí wǒ dōu dǒng le.",
+      "tr": "Những từ này tôi đều hiểu rồi.",
+      "collocations": [
+        "这些词",
+        "生词",
+        "词语"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b10"
+    },
+    {
+      "id": "hsk2-b10-本子",
+      "han": "本子",
+      "py": "běnzi",
+      "vi": "vở, tập ghi chép",
+      "pos": "",
+      "ex": "我的本子在书包里。",
+      "exPy": "Wǒ de běnzi zài shūbāo lǐ.",
+      "tr": "Vở của tôi ở trong cặp sách.",
+      "collocations": [
+        "一个本子",
+        "本子上",
+        "买本子"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b10"
+    },
+    {
+      "id": "hsk2-b10-错",
+      "han": "错",
+      "py": "cuò",
+      "vi": "sai, nhầm",
+      "pos": "",
+      "ex": "这个字写错了。",
+      "exPy": "Zhège zì xiě cuò le.",
+      "tr": "Chữ này viết sai rồi.",
+      "collocations": [
+        "写错",
+        "做错",
+        "错了"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b10"
+    },
+    {
+      "id": "hsk2-b10-题",
+      "han": "题",
+      "py": "tí",
+      "vi": "câu hỏi, bài tập, đề",
+      "pos": "",
+      "ex": "这道题我不会做。",
+      "exPy": "Zhè dào tí wǒ bú huì zuò.",
+      "tr": "Bài này tôi không biết làm.",
+      "collocations": [
+        "做题",
+        "这道题",
+        "做错的题"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b10"
+    },
+    {
+      "id": "hsk2-b10-还是",
+      "han": "还是",
+      "py": "háishi",
+      "vi": "hay, hay là (câu hỏi lựa chọn)",
+      "pos": "",
+      "ex": "你喝咖啡还是奶茶？",
+      "exPy": "Nǐ hē kāfēi háishi nǎichá?",
+      "tr": "Bạn uống cà phê hay trà sữa?",
+      "collocations": [
+        "A还是B",
+        "今天还是明天",
+        "咖啡还是奶茶"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b10"
+    },
+    {
+      "id": "hsk2-b10-考",
+      "han": "考",
+      "py": "kǎo",
+      "vi": "thi, kiểm tra",
+      "pos": "",
+      "ex": "今天考试考得怎么样？",
+      "exPy": "Jīntiān kǎoshì kǎo de zěnmeyàng?",
+      "tr": "Hôm nay thi thế nào?",
+      "collocations": [
+        "考得好",
+        "考试",
+        "考得怎么样"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b10"
+    },
+    {
+      "id": "hsk2-b10-快要",
+      "han": "快要",
+      "py": "kuàiyào",
+      "vi": "sắp, chuẩn bị",
+      "pos": "",
+      "ex": "饭菜快要做好了。",
+      "exPy": "Fàncài kuàiyào zuò hǎo le.",
+      "tr": "Cơm sắp nấu xong rồi.",
+      "collocations": [
+        "快要开学了",
+        "快要做好了",
+        "快要到了"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b10"
+    },
+    {
+      "id": "hsk2-b10-笑",
+      "han": "笑",
+      "py": "xiào",
+      "vi": "cười",
+      "pos": "",
+      "ex": "听完以后，他们都笑了。",
+      "exPy": "Tīng wán yǐhòu, tāmen dōu xiào le.",
+      "tr": "Nghe xong, họ đều cười.",
+      "collocations": [
+        "笑了",
+        "高兴地笑",
+        "笑一笑"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b10"
+    }
+  ]
+}

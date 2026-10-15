@@ -1,0 +1,203 @@
+{
+  "lesson": {
+    "id": "hsk2-b14",
+    "name": "Bài 14",
+    "title": "一个人过年多没意思啊",
+    "translation": "Một mình đón năm mới thì thật vô vị",
+    "level": "HSK 2"
+  },
+  "words": [
+    {
+      "id": "hsk2-b14-站",
+      "han": "站",
+      "py": "zhàn",
+      "vi": "đứng",
+      "pos": "",
+      "ex": "楼下站着一个人。",
+      "exPy": "Lóuxià zhànzhe yí ge rén.",
+      "tr": "Dưới tầng có một người đang đứng.",
+      "collocations": [
+        "站着",
+        "站起来"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b14"
+    },
+    {
+      "id": "hsk2-b14-包",
+      "han": "包",
+      "py": "bāo",
+      "vi": "túi, gói, bao",
+      "pos": "",
+      "ex": "他手里拿着一个黑色的包。",
+      "exPy": "Tā shǒulǐ názhe yí ge hēisè de bāo.",
+      "tr": "Trên tay anh ấy cầm một chiếc túi màu đen.",
+      "collocations": [
+        "一个包",
+        "书包"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b14"
+    },
+    {
+      "id": "hsk2-b14-过年",
+      "han": "过年",
+      "py": "guònián",
+      "vi": "đón Tết, ăn Tết",
+      "pos": "",
+      "ex": "就要过年了。",
+      "exPy": "Jiù yào guònián le.",
+      "tr": "Sắp đến Tết rồi.",
+      "collocations": [
+        "一起过年",
+        "回国过年"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b14"
+    },
+    {
+      "id": "hsk2-b14-没意思",
+      "han": "没意思",
+      "py": "méi yìsi",
+      "vi": "vô vị, chán",
+      "pos": "",
+      "ex": "一个人过年多没意思啊！",
+      "exPy": "Yí ge rén guònián duō méi yìsi a!",
+      "tr": "Một mình đón Tết thì thật vô vị!",
+      "collocations": [
+        "真没意思",
+        "多没意思"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b14"
+    },
+    {
+      "id": "hsk2-b14-位",
+      "han": "位",
+      "py": "wèi",
+      "vi": "lượng từ kính trọng chỉ người",
+      "pos": "",
+      "ex": "旁边这位是谁？",
+      "exPy": "Pángbiān zhè wèi shì shéi?",
+      "tr": "Vị bên cạnh này là ai?",
+      "collocations": [
+        "一位老师",
+        "这位朋友"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b14"
+    },
+    {
+      "id": "hsk2-b14-前面",
+      "han": "前面",
+      "py": "qiánmiàn",
+      "vi": "phía trước",
+      "pos": "",
+      "ex": "我家就在前面那个楼。",
+      "exPy": "Wǒ jiā jiù zài qiánmiàn nàge lóu.",
+      "tr": "Nhà tôi ở ngay tòa nhà phía trước.",
+      "collocations": [
+        "前面那个楼",
+        "在前面"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b14"
+    },
+    {
+      "id": "hsk2-b14-房子",
+      "han": "房子",
+      "py": "fángzi",
+      "vi": "nhà, ngôi nhà, căn hộ",
+      "pos": "",
+      "ex": "你住的房子真不错。",
+      "exPy": "Nǐ zhù de fángzi zhēn búcuò.",
+      "tr": "Căn nhà bạn ở thật đẹp.",
+      "collocations": [
+        "一个房子",
+        "看房子"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b14"
+    },
+    {
+      "id": "hsk2-b14-小孩儿",
+      "han": "小孩儿",
+      "py": "xiǎoháir",
+      "vi": "đứa trẻ, trẻ con",
+      "pos": "",
+      "ex": "楼下的小孩儿学中文。",
+      "exPy": "Lóuxià de xiǎoháir xué Zhōngwén.",
+      "tr": "Trẻ con dưới tầng học tiếng Trung.",
+      "collocations": [
+        "一个小孩儿",
+        "小孩儿学中文"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b14"
+    },
+    {
+      "id": "hsk2-b14-女孩儿",
+      "han": "女孩儿",
+      "py": "nǚháir",
+      "vi": "bé gái, cô bé",
+      "pos": "",
+      "ex": "是个女孩儿，学得也很好。",
+      "exPy": "Shì ge nǚháir, xué de yě hěn hǎo.",
+      "tr": "Là một bé gái, học cũng rất tốt.",
+      "collocations": [
+        "一个女孩儿",
+        "漂亮的女孩儿"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b14"
+    },
+    {
+      "id": "hsk2-b14-姓",
+      "han": "姓",
+      "py": "xìng",
+      "vi": "họ",
+      "pos": "",
+      "ex": "我男朋友姓杨。",
+      "exPy": "Wǒ nánpéngyou xìng Yáng.",
+      "tr": "Bạn trai tôi họ Dương.",
+      "collocations": [
+        "姓杨",
+        "您贵姓"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b14"
+    },
+    {
+      "id": "hsk2-b14-眼睛",
+      "han": "眼睛",
+      "py": "yǎnjing",
+      "vi": "mắt",
+      "pos": "",
+      "ex": "他个子高，大眼睛。",
+      "exPy": "Tā gèzi gāo, dà yǎnjing.",
+      "tr": "Anh ấy cao, mắt to.",
+      "collocations": [
+        "大眼睛",
+        "眼睛漂亮"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b14"
+    },
+    {
+      "id": "hsk2-b14-跳舞",
+      "han": "跳舞",
+      "py": "tiàowǔ",
+      "vi": "nhảy múa, khiêu vũ",
+      "pos": "",
+      "ex": "他唱歌唱得很好，跳舞跳得也不错。",
+      "exPy": "Tā chànggē chàng de hěn hǎo, tiàowǔ tiào de yě búcuò.",
+      "tr": "Anh ấy hát rất hay, nhảy cũng khá đẹp.",
+      "collocations": [
+        "喜欢跳舞",
+        "唱歌跳舞"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b14"
+    }
+  ]
+}

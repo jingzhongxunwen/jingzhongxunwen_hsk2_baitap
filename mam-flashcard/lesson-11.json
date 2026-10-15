@@ -1,0 +1,219 @@
+{
+  "lesson": {
+    "id": "hsk2-b11",
+    "name": "Bài 11",
+    "title": "我最喜欢吃中国菜",
+    "translation": "Em thích ăn món Trung Quốc nhất",
+    "level": "HSK 2"
+  },
+  "words": [
+    {
+      "id": "hsk2-b11-头",
+      "han": "头",
+      "py": "tóu",
+      "vi": "đầu",
+      "pos": "",
+      "ex": "我今天有点儿头疼。",
+      "exPy": "Wǒ jīntiān yǒudiǎnr tóu téng.",
+      "tr": "Hôm nay tôi hơi đau đầu.",
+      "collocations": [
+        "头疼",
+        "点头"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b11"
+    },
+    {
+      "id": "hsk2-b11-疼",
+      "han": "疼",
+      "py": "téng",
+      "vi": "đau, nhức",
+      "pos": "",
+      "ex": "我的头很疼。",
+      "exPy": "Wǒ de tóu hěn téng.",
+      "tr": "Đầu tôi rất đau.",
+      "collocations": [
+        "头疼",
+        "肚子疼"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b11"
+    },
+    {
+      "id": "hsk2-b11-经常",
+      "han": "经常",
+      "py": "jīngcháng",
+      "vi": "thường xuyên",
+      "pos": "",
+      "ex": "我经常坐地铁上班。",
+      "exPy": "Wǒ jīngcháng zuò dìtiě shàngbān.",
+      "tr": "Tôi thường xuyên đi làm bằng tàu điện ngầm.",
+      "collocations": [
+        "经常去",
+        "经常看"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b11"
+    },
+    {
+      "id": "hsk2-b11-动",
+      "han": "动",
+      "py": "dòng",
+      "vi": "di chuyển, cử động",
+      "pos": "",
+      "ex": "现在不能动。",
+      "exPy": "Xiànzài bù néng dòng.",
+      "tr": "Bây giờ không thể cử động.",
+      "collocations": [
+        "运动",
+        "一动就疼"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b11"
+    },
+    {
+      "id": "hsk2-b11-着",
+      "han": "着",
+      "py": "zhe",
+      "vi": "trợ từ: sự duy trì của động tác/trạng thái",
+      "pos": "",
+      "ex": "她坐着看书。",
+      "exPy": "Tā zuòzhe kàn shū.",
+      "tr": "Cô ấy ngồi đọc sách.",
+      "collocations": [
+        "坐着",
+        "穿着"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b11"
+    },
+    {
+      "id": "hsk2-b11-路上",
+      "han": "路上",
+      "py": "lùshang",
+      "vi": "trên đường",
+      "pos": "",
+      "ex": "路上车很多。",
+      "exPy": "Lùshang chē hěn duō.",
+      "tr": "Trên đường có rất nhiều xe.",
+      "collocations": [
+        "在路上",
+        "路上见"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b11"
+    },
+    {
+      "id": "hsk2-b11-慢",
+      "han": "慢",
+      "py": "màn",
+      "vi": "chậm",
+      "pos": "",
+      "ex": "你慢一点儿。",
+      "exPy": "Nǐ màn yìdiǎnr.",
+      "tr": "Bạn chậm một chút.",
+      "collocations": [
+        "慢慢走",
+        "开慢一点儿"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b11"
+    },
+    {
+      "id": "hsk2-b11-进",
+      "han": "进",
+      "py": "jìn",
+      "vi": "vào",
+      "pos": "",
+      "ex": "请进！",
+      "exPy": "Qǐng jìn!",
+      "tr": "Mời vào!",
+      "collocations": [
+        "进来",
+        "进去"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b11"
+    },
+    {
+      "id": "hsk2-b11-药",
+      "han": "药",
+      "py": "yào",
+      "vi": "thuốc",
+      "pos": "",
+      "ex": "医生给我开了药。",
+      "exPy": "Yīshēng gěi wǒ kāile yào.",
+      "tr": "Bác sĩ đã kê thuốc cho tôi.",
+      "collocations": [
+        "吃药",
+        "买药"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b11"
+    },
+    {
+      "id": "hsk2-b11-身体",
+      "han": "身体",
+      "py": "shēntǐ",
+      "vi": "cơ thể, sức khỏe",
+      "pos": "",
+      "ex": "身体不舒服时要好好休息。",
+      "exPy": "Shēntǐ bù shūfu shí yào hǎohāo xiūxi.",
+      "tr": "Khi cơ thể không khỏe cần nghỉ ngơi tốt.",
+      "collocations": [
+        "身体好",
+        "身体不舒服"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b11"
+    },
+    {
+      "id": "hsk2-b11-时",
+      "han": "时",
+      "py": "shí",
+      "vi": "khi, lúc",
+      "pos": "",
+      "ex": "身体不舒服时要休息。",
+      "exPy": "Shēntǐ bù shūfu shí yào xiūxi.",
+      "tr": "Khi cơ thể không khỏe thì cần nghỉ ngơi.",
+      "collocations": [
+        "小时",
+        "有时"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b11"
+    },
+    {
+      "id": "hsk2-b11-最",
+      "han": "最",
+      "py": "zuì",
+      "vi": "nhất",
+      "pos": "",
+      "ex": "我最喜欢吃中国菜。",
+      "exPy": "Wǒ zuì xǐhuan chī Zhōngguó cài.",
+      "tr": "Tôi thích ăn món Trung Quốc nhất.",
+      "collocations": [
+        "最好",
+        "最喜欢"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b11"
+    },
+    {
+      "id": "hsk2-b11-药店",
+      "han": "药店",
+      "py": "yàodiàn",
+      "vi": "hiệu thuốc, nhà thuốc",
+      "pos": "",
+      "ex": "我去药店买药。",
+      "exPy": "Wǒ qù yàodiàn mǎi yào.",
+      "tr": "Tôi đi hiệu thuốc mua thuốc.",
+      "collocations": [
+        "去药店",
+        "药店买药"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b11"
+    }
+  ]
+}

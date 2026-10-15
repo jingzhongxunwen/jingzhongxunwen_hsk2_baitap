@@ -1,0 +1,187 @@
+{
+  "lesson": {
+    "id": "hsk2-b12",
+    "name": "Bài 12",
+    "title": "这里比北京冷多了",
+    "translation": "Ở đây lạnh hơn Bắc Kinh nhiều",
+    "level": "HSK 2"
+  },
+  "words": [
+    {
+      "id": "hsk2-b12-事情",
+      "han": "事情",
+      "py": "shìqing",
+      "vi": "sự việc, việc",
+      "pos": "",
+      "ex": "我有点儿事情想跟你说。",
+      "exPy": "Wǒ yǒudiǎnr shìqing xiǎng gēn nǐ shuō.",
+      "tr": "Tôi có chút việc muốn nói với bạn.",
+      "collocations": [
+        "有事情",
+        "什么事情"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b12"
+    },
+    {
+      "id": "hsk2-b12-晴",
+      "han": "晴",
+      "py": "qíng",
+      "vi": "nắng, tạnh ráo, quang đãng",
+      "pos": "",
+      "ex": "今天是个晴天。",
+      "exPy": "Jīntiān shì ge qíngtiān.",
+      "tr": "Hôm nay là một ngày nắng đẹp.",
+      "collocations": [
+        "晴天",
+        "天气晴"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b12"
+    },
+    {
+      "id": "hsk2-b12-正",
+      "han": "正",
+      "py": "zhèng",
+      "vi": "đang, chính đang",
+      "pos": "",
+      "ex": "外边还正下着雪呢。",
+      "exPy": "Wàibian hái zhèng xiàzhe xuě ne.",
+      "tr": "Bên ngoài tuyết vẫn đang rơi.",
+      "collocations": [
+        "正在",
+        "正下着雪"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b12"
+    },
+    {
+      "id": "hsk2-b12-外面",
+      "han": "外面",
+      "py": "wàimian",
+      "vi": "bên ngoài",
+      "pos": "",
+      "ex": "你去外面的时候多穿点儿衣服。",
+      "exPy": "Nǐ qù wàimian de shíhou duō chuān diǎnr yīfu.",
+      "tr": "Khi ra ngoài bạn nhớ mặc thêm quần áo.",
+      "collocations": [
+        "去外面",
+        "外面很冷"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b12"
+    },
+    {
+      "id": "hsk2-b12-阴",
+      "han": "阴",
+      "py": "yīn",
+      "vi": "âm u, có mây, râm",
+      "pos": "",
+      "ex": "阴天下雪什么的就少出去吧。",
+      "exPy": "Yīntiān xiàxuě shénme de jiù shǎo chūqù ba.",
+      "tr": "Trời âm u hoặc có tuyết thì hạn chế ra ngoài.",
+      "collocations": [
+        "阴天",
+        "天气阴"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b12"
+    },
+    {
+      "id": "hsk2-b12-从小",
+      "han": "从小",
+      "py": "cóngxiǎo",
+      "vi": "từ nhỏ",
+      "pos": "",
+      "ex": "我从小就经常跟爸爸跑步。",
+      "exPy": "Wǒ cóngxiǎo jiù jīngcháng gēn bàba pǎobù.",
+      "tr": "Từ nhỏ tôi đã thường xuyên chạy bộ cùng bố.",
+      "collocations": [
+        "从小就…",
+        "从小喜欢"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b12"
+    },
+    {
+      "id": "hsk2-b12-地铁",
+      "han": "地铁",
+      "py": "dìtiě",
+      "vi": "tàu điện ngầm",
+      "pos": "",
+      "ex": "我现在坐地铁去找你。",
+      "exPy": "Wǒ xiànzài zuò dìtiě qù zhǎo nǐ.",
+      "tr": "Bây giờ tôi đi tàu điện ngầm đến tìm bạn.",
+      "collocations": [
+        "坐地铁",
+        "地铁站"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b12"
+    },
+    {
+      "id": "hsk2-b12-楼",
+      "han": "楼",
+      "py": "lóu",
+      "vi": "tòa nhà, lầu, tầng",
+      "pos": "",
+      "ex": "一会儿楼下见。",
+      "exPy": "Yíhuìr lóuxià jiàn.",
+      "tr": "Lát nữa gặp nhau dưới lầu nhé.",
+      "collocations": [
+        "楼下",
+        "楼上"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b12"
+    },
+    {
+      "id": "hsk2-b12-站",
+      "han": "站",
+      "py": "zhàn",
+      "vi": "trạm, bến",
+      "pos": "",
+      "ex": "每天坐两站地铁去学校。",
+      "exPy": "Měitiān zuò liǎng zhàn dìtiě qù xuéxiào.",
+      "tr": "Mỗi ngày đi hai trạm tàu điện ngầm đến trường.",
+      "collocations": [
+        "地铁站",
+        "两站"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b12"
+    },
+    {
+      "id": "hsk2-b12-小时候",
+      "han": "小时候",
+      "py": "xiǎoshíhou",
+      "vi": "lúc nhỏ, thời thơ ấu",
+      "pos": "",
+      "ex": "他小时候经常跑步。",
+      "exPy": "Tā xiǎoshíhou jīngcháng pǎobù.",
+      "tr": "Hồi nhỏ anh ấy thường xuyên chạy bộ.",
+      "collocations": [
+        "小时候",
+        "我小时候"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b12"
+    },
+    {
+      "id": "hsk2-b12-好",
+      "han": "好",
+      "py": "hǎo",
+      "vi": "rất, thật là",
+      "pos": "",
+      "ex": "你看，前边的那个人好高啊！",
+      "exPy": "Nǐ kàn, qiánbian de nàge rén hǎo gāo a!",
+      "tr": "Bạn xem, người phía trước cao thật đấy!",
+      "collocations": [
+        "好高",
+        "好冷"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b12"
+    }
+  ]
+}

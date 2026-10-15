@@ -1,0 +1,257 @@
+{
+  "lesson": {
+    "id": "hsk2-b3",
+    "name": "Bài 3",
+    "title": "我想去西安旅游",
+    "translation": "Em muốn đi Tây An du lịch",
+    "level": "HSK 2"
+  },
+  "words": [
+    {
+      "id": "hsk2-b3-回来",
+      "han": "回来",
+      "py": "huílái",
+      "vi": "quay về, quay lại",
+      "pos": "động từ",
+      "ex": "今天回来这么晚啊！",
+      "exPy": "Jīntiān huílái zhème wǎn a!",
+      "tr": "Hôm nay anh về muộn thế!",
+      "collocations": [
+        "回来吃饭",
+        "回来工作",
+        "回来以后"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b3"
+    },
+    {
+      "id": "hsk2-b3-这么",
+      "han": "这么",
+      "py": "zhème",
+      "vi": "như vậy",
+      "pos": "đại từ",
+      "ex": "今天回来这么晚啊！",
+      "exPy": "Jīntiān huílái zhème wǎn a!",
+      "tr": "Hôm nay anh về muộn thế!",
+      "collocations": [],
+      "deck": 0,
+      "lesson": "hsk2-b3"
+    },
+    {
+      "id": "hsk2-b3-完",
+      "han": "完",
+      "py": "wán",
+      "vi": "xong",
+      "pos": "động từ",
+      "ex": "下班的时候没做完。",
+      "exPy": "Xiàbān de shíhou méi zuòwán.",
+      "tr": "Đến giờ tan làm vẫn chưa làm xong.",
+      "collocations": [
+        "做完",
+        "吃完",
+        "写完"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b3"
+    },
+    {
+      "id": "hsk2-b3-一起",
+      "han": "一起",
+      "py": "yìqǐ",
+      "vi": "cùng, cùng nhau",
+      "pos": "phó từ",
+      "ex": "我也很想一起出去玩。",
+      "exPy": "Wǒ yě hěn xiǎng yìqǐ chūqù wán.",
+      "tr": "Em cũng rất muốn cùng đi chơi.",
+      "collocations": [
+        "一起去",
+        "一起学习",
+        "一起吃饭"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b3"
+    },
+    {
+      "id": "hsk2-b3-出去",
+      "han": "出去",
+      "py": "chūqù",
+      "vi": "đi ra, đi khỏi, đi",
+      "pos": "động từ",
+      "ex": "我也很想一起出去玩。",
+      "exPy": "Wǒ yě hěn xiǎng yìqǐ chūqù wán.",
+      "tr": "Em cũng rất muốn cùng đi chơi.",
+      "collocations": [
+        "出去玩",
+        "出去吃饭",
+        "走出去"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b3"
+    },
+    {
+      "id": "hsk2-b3-洗",
+      "han": "洗",
+      "py": "xǐ",
+      "vi": "rửa",
+      "pos": "động từ",
+      "ex": "我去洗洗手。",
+      "exPy": "Wǒ qù xǐxi shǒu.",
+      "tr": "Em đi rửa tay một chút.",
+      "collocations": [
+        "洗手",
+        "洗苹果",
+        "洗衣服"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b3"
+    },
+    {
+      "id": "hsk2-b3-自己",
+      "han": "自己",
+      "py": "zìjǐ",
+      "vi": "tự, tự mình, bản thân",
+      "pos": "đại từ",
+      "ex": "就在桌子上，你自己拿。",
+      "exPy": "Jiù zài zhuōzi shang, nǐ zìjǐ ná.",
+      "tr": "Ở ngay trên bàn, em tự lấy nhé.",
+      "collocations": [
+        "自己做",
+        "自己去",
+        "自己拿"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b3"
+    },
+    {
+      "id": "hsk2-b3-拿",
+      "han": "拿",
+      "py": "ná",
+      "vi": "cầm, nắm",
+      "pos": "động từ",
+      "ex": "就在桌子上，你自己拿。",
+      "exPy": "Jiù zài zhuōzi shang, nǐ zìjǐ ná.",
+      "tr": "Ở ngay trên bàn, em tự lấy nhé.",
+      "collocations": [
+        "拿书",
+        "拿手机",
+        "拿东西"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b3"
+    },
+    {
+      "id": "hsk2-b3-手",
+      "han": "手",
+      "py": "shǒu",
+      "vi": "tay",
+      "pos": "danh từ",
+      "ex": "我去洗洗手。",
+      "exPy": "Wǒ qù xǐxi shǒu.",
+      "tr": "Em đi rửa tay một chút.",
+      "collocations": [
+        "洗手",
+        "手里",
+        "手上"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b3"
+    },
+    {
+      "id": "hsk2-b3-为什么",
+      "han": "为什么",
+      "py": "wèi shénme",
+      "vi": "tại sao, vì sao",
+      "pos": "đại từ nghi vấn",
+      "ex": "为什么想去西安？",
+      "exPy": "Wèishénme xiǎng qù Xī’ān?",
+      "tr": "Tại sao muốn đi Tây An?",
+      "collocations": [],
+      "deck": 2,
+      "lesson": "hsk2-b3"
+    },
+    {
+      "id": "hsk2-b3-不错",
+      "han": "不错",
+      "py": "búcuò",
+      "vi": "không tồi, hay",
+      "pos": "tính từ",
+      "ex": "这个时候去西安很不错！",
+      "exPy": "Zhège shíhou qù Xī’ān hěn búcuò!",
+      "tr": "Thời điểm này đi Tây An rất tuyệt!",
+      "collocations": [
+        "很不错",
+        "真不错"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b3"
+    },
+    {
+      "id": "hsk2-b3-送",
+      "han": "送",
+      "py": "sòng",
+      "vi": "đưa, tiễn, tặng",
+      "pos": "động từ",
+      "ex": "早上，刘明开车送孩子去学校。",
+      "exPy": "Zǎoshang, Liú Míng kāichē sòng háizi qù xuéxiào.",
+      "tr": "Buổi sáng, Lưu Minh lái xe đưa con đến trường.",
+      "collocations": [
+        "送孩子",
+        "送朋友",
+        "送礼物"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b3"
+    },
+    {
+      "id": "hsk2-b3-回去",
+      "han": "回去",
+      "py": "huíqù",
+      "vi": "quay về, về",
+      "pos": "động từ",
+      "ex": "让他回去上班。",
+      "exPy": "Ràng tā huíqù shàngbān.",
+      "tr": "Yêu cầu anh ấy quay về bệnh viện làm việc.",
+      "collocations": [
+        "回去上班",
+        "回去休息",
+        "送回去"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b3"
+    },
+    {
+      "id": "hsk2-b3-每",
+      "han": "每",
+      "py": "měi",
+      "vi": "mỗi, hàng (ngày, năm...)",
+      "pos": "đại từ",
+      "ex": "他这个月每天都很累。",
+      "exPy": "Tā zhège yuè měitiān dōu hěn lèi.",
+      "tr": "Tháng này ngày nào anh ấy cũng rất mệt.",
+      "collocations": [
+        "每天",
+        "每年",
+        "每个人"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b3"
+    },
+    {
+      "id": "hsk2-b3-累",
+      "han": "累",
+      "py": "lèi",
+      "vi": "mệt",
+      "pos": "tính từ",
+      "ex": "我觉得他这个月每天都很累。",
+      "exPy": "Wǒ juéde tā zhège yuè měitiān dōu hěn lèi.",
+      "tr": "Tôi thấy tháng này ngày nào anh ấy cũng rất mệt.",
+      "collocations": [
+        "很累",
+        "太累了",
+        "觉得累"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b3"
+    }
+  ]
+}

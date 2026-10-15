@@ -1,0 +1,219 @@
+{
+  "lesson": {
+    "id": "hsk2-b13",
+    "name": "Bài 13",
+    "title": "我们爱上中文课",
+    "translation": "Chúng tôi yêu thích môn tiếng Trung Quốc",
+    "level": "HSK 2"
+  },
+  "words": [
+    {
+      "id": "hsk2-b13-新年",
+      "han": "新年",
+      "py": "xīnnián",
+      "vi": "năm mới",
+      "pos": "",
+      "ex": "新年就要到了。",
+      "exPy": "Xīnnián jiù yào dào le.",
+      "tr": "Sắp đến năm mới rồi.",
+      "collocations": [
+        "过新年",
+        "新年礼物"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b13"
+    },
+    {
+      "id": "hsk2-b13-教",
+      "han": "教",
+      "py": "jiāo",
+      "vi": "dạy",
+      "pos": "",
+      "ex": "王老师教我们中文。",
+      "exPy": "Wáng lǎoshī jiāo wǒmen Zhōngwén.",
+      "tr": "Cô Vương dạy chúng tôi tiếng Trung.",
+      "collocations": [
+        "教中文",
+        "教学生"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b13"
+    },
+    {
+      "id": "hsk2-b13-花",
+      "han": "花",
+      "py": "huā",
+      "vi": "hoa",
+      "pos": "",
+      "ex": "王老师喜欢花。",
+      "exPy": "Wáng lǎoshī xǐhuan huā.",
+      "tr": "Cô Vương thích hoa.",
+      "collocations": [
+        "买花",
+        "送花"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b13"
+    },
+    {
+      "id": "hsk2-b13-希望",
+      "han": "希望",
+      "py": "xīwàng",
+      "vi": "hy vọng, mong muốn",
+      "pos": "",
+      "ex": "希望花店还有漂亮的花。",
+      "exPy": "Xīwàng huādiàn hái yǒu piàoliang de huā.",
+      "tr": "Hy vọng cửa hàng hoa vẫn còn hoa đẹp.",
+      "collocations": [
+        "希望你来",
+        "希望成功"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b13"
+    },
+    {
+      "id": "hsk2-b13-上面",
+      "han": "上面",
+      "py": "shàngmiàn",
+      "vi": "phía trên, bên trên",
+      "pos": "",
+      "ex": "你们在本子上面写。",
+      "exPy": "Nǐmen zài běnzi shàngmiàn xiě.",
+      "tr": "Các em viết ở trên vở.",
+      "collocations": [
+        "桌子上面",
+        "本子上面"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b13"
+    },
+    {
+      "id": "hsk2-b13-洗手间",
+      "han": "洗手间",
+      "py": "xǐshǒujiān",
+      "vi": "nhà vệ sinh",
+      "pos": "",
+      "ex": "洗手间在哪儿？",
+      "exPy": "Xǐshǒujiān zài nǎr?",
+      "tr": "Nhà vệ sinh ở đâu?",
+      "collocations": [
+        "去洗手间",
+        "洗手间里面"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b13"
+    },
+    {
+      "id": "hsk2-b13-里面",
+      "han": "里面",
+      "py": "lǐmiàn",
+      "vi": "bên trong",
+      "pos": "",
+      "ex": "它的里面是“日”。",
+      "exPy": "Tā de lǐmiàn shì “rì”.",
+      "tr": "Bên trong nó là chữ “日”.",
+      "collocations": [
+        "房间里面",
+        "里面有人"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b13"
+    },
+    {
+      "id": "hsk2-b13-笔",
+      "han": "笔",
+      "py": "bǐ",
+      "vi": "nét, nét bút",
+      "pos": "",
+      "ex": "“日”比“口”多一笔。",
+      "exPy": "“Rì” bǐ “kǒu” duō yì bǐ.",
+      "tr": "Chữ 日 nhiều hơn chữ 口 một nét.",
+      "collocations": [
+        "一笔",
+        "笔画"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b13"
+    },
+    {
+      "id": "hsk2-b13-可能",
+      "han": "可能",
+      "py": "kěnéng",
+      "vi": "có thể, có lẽ",
+      "pos": "",
+      "ex": "这么漂亮的本子，不可能贵一点儿吧？",
+      "exPy": "Zhème piàoliang de běnzi, bù kěnéng guì yìdiǎnr ba?",
+      "tr": "Cuốn vở đẹp thế này không thể chỉ đắt hơn một chút chứ?",
+      "collocations": [
+        "有可能",
+        "不可能"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b13"
+    },
+    {
+      "id": "hsk2-b13-上网",
+      "han": "上网",
+      "py": "shàngwǎng",
+      "vi": "lên mạng",
+      "pos": "",
+      "ex": "我是上网买的。",
+      "exPy": "Wǒ shì shàngwǎng mǎi de.",
+      "tr": "Mình mua trên mạng.",
+      "collocations": [
+        "上网买",
+        "上网学习"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b13"
+    },
+    {
+      "id": "hsk2-b13-那样",
+      "han": "那样",
+      "py": "nàyàng",
+      "vi": "như vậy, thế kia",
+      "pos": "",
+      "ex": "那样我们就都有新年礼物了。",
+      "exPy": "Nàyàng wǒmen jiù dōu yǒu xīnnián lǐwù le.",
+      "tr": "Như vậy chúng ta đều có quà năm mới rồi.",
+      "collocations": [
+        "不要那样",
+        "那样做"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b13"
+    },
+    {
+      "id": "hsk2-b13-告诉",
+      "han": "告诉",
+      "py": "gàosu",
+      "vi": "nói cho biết, kể",
+      "pos": "",
+      "ex": "她告诉我是在网上买的。",
+      "exPy": "Tā gàosu wǒ shì zài wǎngshàng mǎi de.",
+      "tr": "Bạn ấy nói với tôi là mua trên mạng.",
+      "collocations": [
+        "告诉我",
+        "告诉大家"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b13"
+    },
+    {
+      "id": "hsk2-b13-班",
+      "han": "班",
+      "py": "bān",
+      "vi": "lớp",
+      "pos": "",
+      "ex": "我们班同学也送了王老师漂亮的花。",
+      "exPy": "Wǒmen bān tóngxué yě sòngle Wáng lǎoshī piàoliang de huā.",
+      "tr": "Các bạn lớp chúng tôi cũng tặng cô Vương hoa đẹp.",
+      "collocations": [
+        "我们班",
+        "班同学"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b13"
+    }
+  ]
+}

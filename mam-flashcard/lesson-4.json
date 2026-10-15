@@ -1,0 +1,262 @@
+{
+  "lesson": {
+    "id": "hsk2-b4",
+    "name": "Bài 4",
+    "title": "你穿红色的很好看",
+    "translation": "Con mặc đồ màu đỏ rất đẹp",
+    "level": "HSK 2"
+  },
+  "words": [
+    {
+      "id": "hsk2-b4-过",
+      "han": "过",
+      "py": "guo",
+      "vi": "đã từng",
+      "pos": "trợ từ",
+      "ex": "我们来过这家商场吗？",
+      "exPy": "Wǒmen láiguo zhè jiā shāngchǎng ma?",
+      "tr": "Chúng ta đã từng đến trung tâm mua sắm này chưa?",
+      "collocations": [
+        "去过",
+        "吃过",
+        "看过"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b4"
+    },
+    {
+      "id": "hsk2-b4-商场",
+      "han": "商场",
+      "py": "shāngchǎng",
+      "vi": "trung tâm thương mại, khu mua sắm",
+      "pos": "danh từ",
+      "ex": "这是新开的商场。",
+      "exPy": "Zhè shì xīn kāi de shāngchǎng.",
+      "tr": "Đây là trung tâm thương mại mới mở.",
+      "collocations": [
+        "去商场",
+        "商场里"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b4"
+    },
+    {
+      "id": "hsk2-b4-进去",
+      "han": "进去",
+      "py": "jìnqù",
+      "vi": "đi vào",
+      "pos": "động từ",
+      "ex": "我们进去看看吧。",
+      "exPy": "Wǒmen jìnqù kànkan ba.",
+      "tr": "Chúng ta vào xem một chút nhé.",
+      "collocations": [
+        "走进去",
+        "进去看看"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b4"
+    },
+    {
+      "id": "hsk2-b4-条",
+      "han": "条",
+      "py": "tiáo",
+      "vi": "cái, chiếc (quần, váy...)",
+      "pos": "lượng từ",
+      "ex": "我想买条裤子。",
+      "exPy": "Wǒ xiǎng mǎi tiáo kùzi.",
+      "tr": "Con muốn mua một chiếc quần.",
+      "collocations": [
+        "一条裤子"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b4"
+    },
+    {
+      "id": "hsk2-b4-裤子",
+      "han": "裤子",
+      "py": "kùzi",
+      "vi": "quần",
+      "pos": "danh từ",
+      "ex": "我想买条裤子。",
+      "exPy": "Wǒ xiǎng mǎi tiáo kùzi.",
+      "tr": "Con muốn mua một chiếc quần.",
+      "collocations": [
+        "白色的裤子",
+        "红色的裤子"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b4"
+    },
+    {
+      "id": "hsk2-b4-白色",
+      "han": "白色",
+      "py": "báisè",
+      "vi": "màu trắng",
+      "pos": "danh từ",
+      "ex": "我想买这条白色的裤子。",
+      "exPy": "Wǒ xiǎng mǎi zhè tiáo báisè de kùzi.",
+      "tr": "Con muốn mua chiếc quần màu trắng này.",
+      "collocations": [
+        "白色的衣服",
+        "白色的裤子"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b4"
+    },
+    {
+      "id": "hsk2-b4-因为",
+      "han": "因为",
+      "py": "yīnwèi",
+      "vi": "bởi vì, vì",
+      "pos": "liên từ",
+      "ex": "因为我喜欢白色啊！",
+      "exPy": "Yīnwèi wǒ xǐhuan báisè a!",
+      "tr": "Vì con thích màu trắng ạ!",
+      "collocations": [
+        "因为……所以……"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b4"
+    },
+    {
+      "id": "hsk2-b4-试",
+      "han": "试",
+      "py": "shì",
+      "vi": "thử",
+      "pos": "động từ",
+      "ex": "你试试那条红色的吧。",
+      "exPy": "Nǐ shìshi nà tiáo hóngsè de ba.",
+      "tr": "Con thử chiếc màu đỏ kia xem.",
+      "collocations": [
+        "试试",
+        "试衣服"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b4"
+    },
+    {
+      "id": "hsk2-b4-红色",
+      "han": "红色",
+      "py": "hóngsè",
+      "vi": "màu đỏ",
+      "pos": "danh từ",
+      "ex": "我没穿过红色的。",
+      "exPy": "Wǒ méi chuānguo hóngsè de.",
+      "tr": "Con chưa từng mặc đồ màu đỏ.",
+      "collocations": [
+        "红色的裤子"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b4"
+    },
+    {
+      "id": "hsk2-b4-所以",
+      "han": "所以",
+      "py": "suǒyǐ",
+      "vi": "cho nên, nên",
+      "pos": "liên từ",
+      "ex": "就是因为没穿过，所以要试试啊！",
+      "exPy": "Jiù shì yīnwèi méi chuānguo, suǒyǐ yào shìshi a!",
+      "tr": "Chính vì chưa từng mặc nên phải thử xem!",
+      "collocations": [
+        "因为……所以……"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b4"
+    },
+    {
+      "id": "hsk2-b4-书包",
+      "han": "书包",
+      "py": "shūbāo",
+      "vi": "cặp sách",
+      "pos": "danh từ",
+      "ex": "妈妈，我想买个新书包。",
+      "exPy": "Māma, wǒ xiǎng mǎi ge xīn shūbāo.",
+      "tr": "Mẹ ơi, con muốn mua cặp sách mới.",
+      "collocations": [
+        "新书包",
+        "买书包"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b4"
+    },
+    {
+      "id": "hsk2-b4-过去",
+      "han": "过去",
+      "py": "guòqù",
+      "vi": "sang, đi sang",
+      "pos": "động từ",
+      "ex": "那边卖书包，我们过去看看吧。",
+      "exPy": "Nàbian mài shūbāo, wǒmen guòqù kànkan ba.",
+      "tr": "Đằng kia bán cặp sách, chúng ta sang xem nhé.",
+      "collocations": [
+        "走过去",
+        "过去看看"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b4"
+    },
+    {
+      "id": "hsk2-b4-绿色",
+      "han": "绿色",
+      "py": "lǜsè",
+      "vi": "màu xanh lá cây",
+      "pos": "danh từ",
+      "ex": "绿色的吧。",
+      "exPy": "Lǜsè de ba.",
+      "tr": "Cái màu xanh lá cây ạ.",
+      "collocations": [
+        "绿色的书包"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b4"
+    },
+    {
+      "id": "hsk2-b4-黑色",
+      "han": "黑色",
+      "py": "hēisè",
+      "vi": "màu đen",
+      "pos": "danh từ",
+      "ex": "红色的、绿色的、黑色的，你想买哪个？",
+      "exPy": "Hóngsè de, lǜsè de, hēisè de, nǐ xiǎng mǎi nǎge?",
+      "tr": "Màu đỏ, xanh lá, đen, con muốn mua cái nào?",
+      "collocations": [
+        "黑色的书包"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b4"
+    },
+    {
+      "id": "hsk2-b4-更",
+      "han": "更",
+      "py": "gèng",
+      "vi": "càng, hơn",
+      "pos": "phó từ",
+      "ex": "我也觉得绿色的更好看。",
+      "exPy": "Wǒ yě juéde lǜsè de gèng hǎokàn.",
+      "tr": "Mẹ cũng thấy cái màu xanh lá đẹp hơn.",
+      "collocations": [
+        "更好看",
+        "更便宜"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b4"
+    },
+    {
+      "id": "hsk2-b4-颜色",
+      "han": "颜色",
+      "py": "yánsè",
+      "vi": "màu sắc",
+      "pos": "danh từ",
+      "ex": "商场里的衣服颜色很多。",
+      "exPy": "Shāngchǎng li de yīfu yánsè hěn duō.",
+      "tr": "Quần áo trong trung tâm thương mại có rất nhiều màu sắc.",
+      "collocations": [
+        "衣服颜色",
+        "什么颜色"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b4"
+    }
+  ]
+}

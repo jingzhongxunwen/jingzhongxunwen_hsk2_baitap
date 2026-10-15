@@ -1,0 +1,235 @@
+{
+  "lesson": {
+    "id": "hsk2-b6",
+    "name": "Bài 6",
+    "title": "小雪，生日快乐！",
+    "translation": "Chúc mừng sinh nhật Tiểu Tuyết!",
+    "level": "HSK 2"
+  },
+  "words": [
+    {
+      "id": "hsk2-b6-生日",
+      "han": "生日",
+      "py": "shēngrì",
+      "vi": "sinh nhật",
+      "pos": "danh từ",
+      "ex": "明天是女儿的生日了。",
+      "exPy": "Míngtiān shì nǚ’ér de shēngrì le.",
+      "tr": "Ngày mai là sinh nhật con gái rồi.",
+      "collocations": [
+        "过生日",
+        "生日快乐"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b6"
+    },
+    {
+      "id": "hsk2-b6-忘",
+      "han": "忘",
+      "py": "wàng",
+      "vi": "quên",
+      "pos": "động từ",
+      "ex": "你不说，我还真忘了。",
+      "exPy": "Nǐ bù shuō, wǒ hái zhēn wàng le.",
+      "tr": "Nếu em không nói thì anh đã quên mất rồi.",
+      "collocations": [
+        "忘了",
+        "别忘了"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b6"
+    },
+    {
+      "id": "hsk2-b6-画",
+      "han": "画",
+      "py": "huà",
+      "vi": "vẽ, tranh",
+      "pos": "động từ/danh từ",
+      "ex": "她喜欢画画。",
+      "exPy": "Tā xǐhuan huà huà.",
+      "tr": "Con bé thích vẽ tranh.",
+      "collocations": [
+        "画画",
+        "画我们的家"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b6"
+    },
+    {
+      "id": "hsk2-b6-画笔",
+      "han": "画笔",
+      "py": "huàbǐ",
+      "vi": "bút màu, bút vẽ",
+      "pos": "danh từ",
+      "ex": "就送画笔吧！",
+      "exPy": "Jiù sòng huàbǐ ba!",
+      "tr": "Thế thì tặng bút màu nhé!",
+      "collocations": [
+        "送画笔",
+        "买画笔"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b6"
+    },
+    {
+      "id": "hsk2-b6-蛋糕",
+      "han": "蛋糕",
+      "py": "dàngāo",
+      "vi": "bánh kem, bánh ga tô",
+      "pos": "danh từ",
+      "ex": "我再给她买个大大的生日蛋糕。",
+      "exPy": "Wǒ zài gěi tā mǎi ge dàdà de shēngrì dàngāo.",
+      "tr": "Anh sẽ mua thêm cho con một chiếc bánh sinh nhật to.",
+      "collocations": [
+        "生日蛋糕",
+        "大大的蛋糕"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b6"
+    },
+    {
+      "id": "hsk2-b6-快乐",
+      "han": "快乐",
+      "py": "kuàilè",
+      "vi": "vui vẻ",
+      "pos": "tính từ",
+      "ex": "小雪，生日快乐！",
+      "exPy": "Xiǎoxuě, shēngrì kuàilè!",
+      "tr": "Tiểu Tuyết, chúc mừng sinh nhật!",
+      "collocations": [
+        "生日快乐",
+        "很快乐"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b6"
+    },
+    {
+      "id": "hsk2-b6-打开",
+      "han": "打开",
+      "py": "dǎkāi",
+      "vi": "mở ra, bóc ra",
+      "pos": "động từ",
+      "ex": "你打开看看喜欢不喜欢。",
+      "exPy": "Nǐ dǎkāi kànkan xǐhuan bu xǐhuan.",
+      "tr": "Con mở ra xem có thích không.",
+      "collocations": [
+        "打开礼物",
+        "打开看看"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b6"
+    },
+    {
+      "id": "hsk2-b6-长",
+      "han": "长",
+      "py": "cháng",
+      "vi": "dài",
+      "pos": "tính từ",
+      "ex": "长长的面条儿。",
+      "exPy": "Chángcháng de miàntiáor.",
+      "tr": "Mì sợi dài.",
+      "collocations": [
+        "长长的",
+        "很长"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b6"
+    },
+    {
+      "id": "hsk2-b6-鱼",
+      "han": "鱼",
+      "py": "yú",
+      "vi": "cá",
+      "pos": "danh từ",
+      "ex": "还有鱼啊肉啊什么的。",
+      "exPy": "Hái yǒu yú a ròu a shénme de.",
+      "tr": "Còn có cá, thịt và những món khác nữa.",
+      "collocations": [
+        "吃鱼",
+        "一条鱼"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b6"
+    },
+    {
+      "id": "hsk2-b6-肉",
+      "han": "肉",
+      "py": "ròu",
+      "vi": "thịt",
+      "pos": "danh từ",
+      "ex": "还有鱼啊肉啊什么的。",
+      "exPy": "Hái yǒu yú a ròu a shénme de.",
+      "tr": "Còn có cá, thịt và những món khác nữa.",
+      "collocations": [
+        "吃肉",
+        "鱼肉"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b6"
+    },
+    {
+      "id": "hsk2-b6-过",
+      "han": "过",
+      "py": "guò",
+      "vi": "trải qua, đón (sinh nhật)",
+      "pos": "động từ",
+      "ex": "过生日真好啊！",
+      "exPy": "Guò shēngrì zhēn hǎo a!",
+      "tr": "Sinh nhật thật tuyệt!",
+      "collocations": [
+        "过生日",
+        "过得快乐"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b6"
+    },
+    {
+      "id": "hsk2-b6-地",
+      "han": "地",
+      "py": "de",
+      "vi": "đứng giữa trạng ngữ và động từ",
+      "pos": "trợ từ",
+      "ex": "还要高高兴兴地玩。",
+      "exPy": "Hái yào gāogāoxìngxìng de wán.",
+      "tr": "Còn phải chơi thật vui nữa.",
+      "collocations": [
+        "高高兴兴地",
+        "舒服地"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b6"
+    },
+    {
+      "id": "hsk2-b6-床",
+      "han": "床",
+      "py": "chuáng",
+      "vi": "giường",
+      "pos": "danh từ",
+      "ex": "孩子们早早地就上床了。",
+      "exPy": "Háizimen zǎozǎo de jiù shàng chuáng le.",
+      "tr": "Bọn trẻ đã lên giường từ sớm.",
+      "collocations": [
+        "上床",
+        "床上"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b6"
+    },
+    {
+      "id": "hsk2-b6-舒服",
+      "han": "舒服",
+      "py": "shūfu",
+      "vi": "thoải mái, dễ chịu",
+      "pos": "tính từ",
+      "ex": "舒舒服服地睡一觉。",
+      "exPy": "Shūshūfúfú de shuì yí jiào.",
+      "tr": "Ngủ một giấc thật thoải mái.",
+      "collocations": [
+        "很舒服",
+        "舒舒服服地"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b6"
+    }
+  ]
+}

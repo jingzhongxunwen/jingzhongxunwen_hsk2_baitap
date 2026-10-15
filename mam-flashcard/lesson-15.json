@@ -1,0 +1,198 @@
+{
+  "lesson": {
+    "id": "hsk2-b15",
+    "name": "Bài 15",
+    "title": "我想再去一次中国",
+    "translation": "Em muốn đi Trung Quốc một lần nữa",
+    "level": "HSK 2"
+  },
+  "words": [
+    {
+      "id": "hsk2-b15-姓名",
+      "han": "姓名",
+      "py": "xìngmíng",
+      "vi": "họ tên",
+      "pos": "",
+      "ex": "请写下你的姓名。",
+      "exPy": "Qǐng xiě xià nǐ de xìngmíng.",
+      "tr": "Hãy viết họ tên của bạn.",
+      "collocations": [
+        "填写姓名",
+        "你的姓名"
+      ],
+      "exampleSource": "supplement",
+      "deck": 0,
+      "lesson": "hsk2-b15"
+    },
+    {
+      "id": "hsk2-b15-出国",
+      "han": "出国",
+      "py": "chūguó",
+      "vi": "ra nước ngoài, xuất ngoại",
+      "pos": "",
+      "ex": "我明年想出国。",
+      "exPy": "Wǒ míngnián xiǎng chūguó.",
+      "tr": "Năm sau tôi muốn ra nước ngoài.",
+      "collocations": [
+        "出国旅游",
+        "出国学习"
+      ],
+      "exampleSource": "supplement",
+      "deck": 1,
+      "lesson": "hsk2-b15"
+    },
+    {
+      "id": "hsk2-b15-门票",
+      "han": "门票",
+      "py": "ménpiào",
+      "vi": "vé vào cửa",
+      "pos": "",
+      "ex": "这张门票多少钱？",
+      "exPy": "Zhè zhāng ménpiào duōshao qián?",
+      "tr": "Vé vào cửa này bao nhiêu tiền?",
+      "collocations": [
+        "买门票",
+        "一张门票"
+      ],
+      "exampleSource": "supplement",
+      "deck": 1,
+      "lesson": "hsk2-b15"
+    },
+    {
+      "id": "hsk2-b15-高中",
+      "han": "高中",
+      "py": "gāozhōng",
+      "vi": "cấp ba, trung học phổ thông",
+      "pos": "",
+      "ex": "我们是高中同学。",
+      "exPy": "Wǒmen shì gāozhōng tóngxué.",
+      "tr": "Chúng tôi là bạn học cấp ba.",
+      "collocations": [
+        "高中同学",
+        "上高中"
+      ],
+      "exampleSource": "supplement",
+      "deck": 1,
+      "lesson": "hsk2-b15"
+    },
+    {
+      "id": "hsk2-b15-出门",
+      "han": "出门",
+      "py": "chūmén",
+      "vi": "ra ngoài, rời nhà",
+      "pos": "",
+      "ex": "我现在要出门。",
+      "exPy": "Wǒ xiànzài yào chūmén.",
+      "tr": "Bây giờ tôi sắp ra ngoài.",
+      "collocations": [
+        "出门前",
+        "出门旅游"
+      ],
+      "exampleSource": "supplement",
+      "deck": 1,
+      "lesson": "hsk2-b15"
+    },
+    {
+      "id": "hsk2-b15-路",
+      "han": "路",
+      "py": "lù",
+      "vi": "con đường",
+      "pos": "",
+      "ex": "这条路很长。",
+      "exPy": "Zhè tiáo lù hěn cháng.",
+      "tr": "Con đường này rất dài.",
+      "collocations": [
+        "一条路",
+        "这条路"
+      ],
+      "exampleSource": "supplement",
+      "deck": 1,
+      "lesson": "hsk2-b15"
+    },
+    {
+      "id": "hsk2-b15-机场",
+      "han": "机场",
+      "py": "jīchǎng",
+      "vi": "sân bay",
+      "pos": "",
+      "ex": "我去机场接朋友。",
+      "exPy": "Wǒ qù jīchǎng jiē péngyou.",
+      "tr": "Tôi đến sân bay đón bạn.",
+      "collocations": [
+        "去机场",
+        "在机场"
+      ],
+      "exampleSource": "supplement",
+      "deck": 2,
+      "lesson": "hsk2-b15"
+    },
+    {
+      "id": "hsk2-b15-机票",
+      "han": "机票",
+      "py": "jīpiào",
+      "vi": "vé máy bay",
+      "pos": "",
+      "ex": "我买了一张机票。",
+      "exPy": "Wǒ mǎi le yì zhāng jīpiào.",
+      "tr": "Tôi đã mua một vé máy bay.",
+      "collocations": [
+        "买机票",
+        "一张机票"
+      ],
+      "exampleSource": "supplement",
+      "deck": 2,
+      "lesson": "hsk2-b15"
+    },
+    {
+      "id": "hsk2-b15-飞",
+      "han": "飞",
+      "py": "fēi",
+      "vi": "bay",
+      "pos": "",
+      "ex": "鸟在天上飞。",
+      "exPy": "Niǎo zài tiānshàng fēi.",
+      "tr": "Chim đang bay trên trời.",
+      "collocations": [
+        "飞回去",
+        "飞过来"
+      ],
+      "exampleSource": "supplement",
+      "deck": 2,
+      "lesson": "hsk2-b15"
+    },
+    {
+      "id": "hsk2-b15-好像",
+      "han": "好像",
+      "py": "hǎoxiàng",
+      "vi": "dường như, giống như, hình như",
+      "pos": "",
+      "ex": "外面好像下雨了。",
+      "exPy": "Wàimian hǎoxiàng xiàyǔ le.",
+      "tr": "Hình như bên ngoài trời mưa rồi.",
+      "collocations": [
+        "好像是",
+        "好像没有"
+      ],
+      "exampleSource": "supplement",
+      "deck": 3,
+      "lesson": "hsk2-b15"
+    },
+    {
+      "id": "hsk2-b15-鸟",
+      "han": "鸟",
+      "py": "niǎo",
+      "vi": "con chim",
+      "pos": "",
+      "ex": "树上有一只鸟。",
+      "exPy": "Shù shàng yǒu yì zhī niǎo.",
+      "tr": "Trên cây có một con chim.",
+      "collocations": [
+        "一只鸟",
+        "小鸟"
+      ],
+      "exampleSource": "supplement",
+      "deck": 3,
+      "lesson": "hsk2-b15"
+    }
+  ]
+}
