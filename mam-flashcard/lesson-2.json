@@ -1,0 +1,272 @@
+{
+  "lesson": {
+    "id": "hsk2-b2",
+    "name": "Bài 2",
+    "title": "还是打车去北大吧",
+    "translation": "Chúng ta vẫn nên gọi taxi đi Đại học Bắc Kinh nhé.",
+    "level": "HSK 2"
+  },
+  "words": [
+    {
+      "id": "hsk2-b2-公交车",
+      "han": "公交车",
+      "py": "gōngjiāochē",
+      "vi": "xe buýt",
+      "pos": "danh từ",
+      "ex": "这儿有到北京大学的公交车吗？",
+      "exPy": "Zhèr yǒu dào Běijīng Dàxué de gōngjiāochē ma?",
+      "tr": "Ở đây có xe buýt đến Đại học Bắc Kinh không?",
+      "collocations": [
+        "坐公交车",
+        "公交车站",
+        "到北京大学的公交车"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b2"
+    },
+    {
+      "id": "hsk2-b2-但",
+      "han": "但",
+      "py": "dàn",
+      "vi": "nhưng, nhưng mà",
+      "pos": "liên từ",
+      "ex": "有，但车站有点儿远。",
+      "exPy": "Yǒu, dàn chēzhàn yǒudiǎnr yuǎn.",
+      "tr": "Có, nhưng bến xe hơi xa.",
+      "collocations": [],
+      "deck": 0,
+      "lesson": "hsk2-b2"
+    },
+    {
+      "id": "hsk2-b2-车站",
+      "han": "车站",
+      "py": "chēzhàn",
+      "vi": "bến xe",
+      "pos": "danh từ",
+      "ex": "车站有点儿远。",
+      "exPy": "Chēzhàn yǒudiǎnr yuǎn.",
+      "tr": "Bến xe hơi xa.",
+      "collocations": [
+        "公交车站",
+        "火车站",
+        "去车站"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b2"
+    },
+    {
+      "id": "hsk2-b2-远",
+      "han": "远",
+      "py": "yuǎn",
+      "vi": "xa",
+      "pos": "tính từ",
+      "ex": "车站离这儿不远。",
+      "exPy": "Chēzhàn lí zhèr bù yuǎn.",
+      "tr": "Bến xe cách đây không xa.",
+      "collocations": [
+        "很远",
+        "不远",
+        "有点儿远"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b2"
+    },
+    {
+      "id": "hsk2-b2-打车",
+      "han": "打车",
+      "py": "dǎchē",
+      "vi": "gọi taxi, đi taxi",
+      "pos": "động từ",
+      "ex": "这儿好打车吗？",
+      "exPy": "Zhèr hǎo dǎchē ma?",
+      "tr": "Ở đây có dễ gọi taxi không?",
+      "collocations": [
+        "打车去学校",
+        "打车回家",
+        "好打车"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b2"
+    },
+    {
+      "id": "hsk2-b2-还是",
+      "han": "还是",
+      "py": "háishi",
+      "vi": "vẫn; tốt hơn là…",
+      "pos": "phó từ",
+      "ex": "我们还是打车去吧。",
+      "exPy": "Wǒmen háishi dǎchē qù ba.",
+      "tr": "Chúng ta vẫn nên đi taxi nhé.",
+      "collocations": [],
+      "deck": 0,
+      "lesson": "hsk2-b2"
+    },
+    {
+      "id": "hsk2-b2-北京大学",
+      "han": "北京大学",
+      "py": "Běijīng Dàxué",
+      "vi": "Đại học Bắc Kinh",
+      "pos": "danh từ riêng",
+      "ex": "我们去北京大学参观。",
+      "exPy": "Wǒmen qù Běijīng Dàxué cānguān.",
+      "tr": "Chúng tôi đi tham quan Đại học Bắc Kinh.",
+      "collocations": [
+        "去北京大学",
+        "北京大学学生",
+        "北京大学校园"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b2"
+    },
+    {
+      "id": "hsk2-b2-啊",
+      "han": "啊",
+      "py": "a",
+      "vi": "trợ từ ngữ khí",
+      "pos": "trợ từ",
+      "ex": "学校里人真多啊！",
+      "exPy": "Xuéxiào li rén zhēn duō a!",
+      "tr": "Trong trường đông người thật đấy!",
+      "collocations": [],
+      "deck": 1,
+      "lesson": "hsk2-b2"
+    },
+    {
+      "id": "hsk2-b2-万",
+      "han": "万",
+      "py": "wàn",
+      "vi": "vạn, mười nghìn",
+      "pos": "số từ",
+      "ex": "北京大学有四万多名学生。",
+      "exPy": "Běijīng Dàxué yǒu sì wàn duō míng xuésheng.",
+      "tr": "Đại học Bắc Kinh có hơn 40.000 sinh viên.",
+      "collocations": [],
+      "deck": 1,
+      "lesson": "hsk2-b2"
+    },
+    {
+      "id": "hsk2-b2-名",
+      "han": "名",
+      "py": "míng",
+      "vi": "lượng từ chỉ người; tên",
+      "pos": "lượng từ / danh từ",
+      "ex": "学校有三千多名外国学生。",
+      "exPy": "Xuéxiào yǒu sānqiān duō míng wàiguó xuésheng.",
+      "tr": "Trường có hơn 3.000 sinh viên nước ngoài.",
+      "collocations": [],
+      "deck": 1,
+      "lesson": "hsk2-b2"
+    },
+    {
+      "id": "hsk2-b2-网上",
+      "han": "网上",
+      "py": "wǎngshang",
+      "vi": "trên mạng",
+      "pos": "danh từ",
+      "ex": "是网上说的。",
+      "exPy": "Shì wǎngshang shuō de.",
+      "tr": "Là thông tin trên mạng nói vậy.",
+      "collocations": [
+        "在网上",
+        "网上说",
+        "网上学习"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b2"
+    },
+    {
+      "id": "hsk2-b2-外国",
+      "han": "外国",
+      "py": "wàiguó",
+      "vi": "nước ngoài",
+      "pos": "danh từ",
+      "ex": "这里有很多外国学生。",
+      "exPy": "Zhèli yǒu hěn duō wàiguó xuésheng.",
+      "tr": "Ở đây có rất nhiều sinh viên nước ngoài.",
+      "collocations": [
+        "外国学生",
+        "外国朋友",
+        "外国人"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b2"
+    },
+    {
+      "id": "hsk2-b2-间",
+      "han": "间",
+      "py": "jiān",
+      "vi": "gian, căn (phòng)",
+      "pos": "lượng từ",
+      "ex": "那边有一间教室。",
+      "exPy": "Nàbian yǒu yì jiān jiàoshì.",
+      "tr": "Đằng kia có một phòng học.",
+      "collocations": [],
+      "deck": 1,
+      "lesson": "hsk2-b2"
+    },
+    {
+      "id": "hsk2-b2-教室",
+      "han": "教室",
+      "py": "jiàoshì",
+      "vi": "phòng học",
+      "pos": "danh từ",
+      "ex": "我们去看一下教室吧。",
+      "exPy": "Wǒmen qù kàn yíxià jiàoshì ba.",
+      "tr": "Chúng ta đi xem phòng học nhé.",
+      "collocations": [
+        "一间教室",
+        "在教室里",
+        "去教室"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b2"
+    },
+    {
+      "id": "hsk2-b2-票",
+      "han": "票",
+      "py": "piào",
+      "vi": "vé",
+      "pos": "danh từ",
+      "ex": "他们卖的电影票也很便宜。",
+      "exPy": "Tāmen mài de diànyǐngpiào yě hěn piányi.",
+      "tr": "Vé xem phim họ bán cũng rất rẻ.",
+      "collocations": [
+        "电影票",
+        "买票",
+        "卖票"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b2"
+    },
+    {
+      "id": "hsk2-b2-别",
+      "han": "别",
+      "py": "bié",
+      "vi": "đừng",
+      "pos": "phó từ",
+      "ex": "还是别看电影了。",
+      "exPy": "Háishi bié kàn diànyǐng le.",
+      "tr": "Thôi đừng xem phim nữa.",
+      "collocations": [],
+      "deck": 2,
+      "lesson": "hsk2-b2"
+    },
+    {
+      "id": "hsk2-b2-过来",
+      "han": "过来",
+      "py": "guòlái",
+      "vi": "đến, đến đây",
+      "pos": "động từ",
+      "ex": "我们有时间还想再过来看个电影。",
+      "exPy": "Wǒmen yǒu shíjiān hái xiǎng zài guòlái kàn ge diànyǐng.",
+      "tr": "Nếu có thời gian chúng tôi còn muốn quay lại đây xem phim.",
+      "collocations": [
+        "走过来",
+        "跑过来",
+        "再过来"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b2"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "lesson": {
+    "id": "hsk2-b1",
+    "title": "她请我们吃了北京烤鸭"
+  },
+  "words": [
+    {
+      "id": "hsk2-b1-就",
+      "han": "就",
+      "py": "jiù",
+      "vi": "chính (là), thì",
+      "pos": "phó từ",
+      "ex": "你们就是她的学生吧？",
+      "exPy": "Nǐmen jiù shì tā de xuésheng ba?",
+      "tr": "Các em chính là học sinh của cô ấy phải không?",
+      "collocations": [
+        "就是",
+        "就来",
+        "就找我"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b1"
+    },
+    {
+      "id": "hsk2-b1-给",
+      "han": "给",
+      "py": "gěi",
+      "vi": "cho",
+      "pos": "giới từ",
+      "ex": "一飞给我打电话了。",
+      "exPy": "Yīfēi gěi wǒ dǎ diànhuà le.",
+      "tr": "Nhất Phi đã gọi điện cho tôi.",
+      "collocations": [
+        "给我打电话",
+        "给你介绍",
+        "给他一本书"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b1"
+    },
+    {
+      "id": "hsk2-b1-让",
+      "han": "让",
+      "py": "ràng",
+      "vi": "bảo, để, cho phép, nhờ",
+      "pos": "động từ",
+      "ex": "她让我来接你们。",
+      "exPy": "Tā ràng wǒ lái jiē nǐmen.",
+      "tr": "Cô ấy nhờ tôi đến đón các bạn.",
+      "collocations": [
+        "让某人做…",
+        "让我们…",
+        "不让…"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b1"
+    },
+    {
+      "id": "hsk2-b1-接",
+      "han": "接",
+      "py": "jiē",
+      "vi": "đón",
+      "pos": "động từ",
+      "ex": "姐姐来机场接我们。",
+      "exPy": "Jiějie lái jīchǎng jiē wǒmen.",
+      "tr": "Chị gái đến sân bay đón chúng tôi.",
+      "collocations": [
+        "接人",
+        "接电话",
+        "去机场接…"
+      ],
+      "deck": 0,
+      "lesson": "hsk2-b1"
+    },
+    {
+      "id": "hsk2-b1-次",
+      "han": "次",
+      "py": "cì",
+      "vi": "lần",
+      "pos": "lượng từ",
+      "ex": "这是我第一次来北京。",
+      "exPy": "Zhè shì wǒ dì-yī cì lái Běijīng.",
+      "tr": "Đây là lần đầu tôi đến Bắc Kinh.",
+      "collocations": [
+        "第一次",
+        "一次",
+        "两次"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b1"
+    },
+    {
+      "id": "hsk2-b1-旅游",
+      "han": "旅游",
+      "py": "lǚyóu",
+      "vi": "du lịch",
+      "pos": "động từ",
+      "ex": "我们是来北京旅游的。",
+      "exPy": "Wǒmen shì lái Běijīng lǚyóu de.",
+      "tr": "Chúng tôi đến Bắc Kinh để du lịch.",
+      "collocations": [
+        "去旅游",
+        "来旅游",
+        "旅游计划"
+      ],
+      "deck": 1,
+      "lesson": "hsk2-b1"
+    },
+    {
+      "id": "hsk2-b1-帮忙",
+      "han": "帮忙",
+      "py": "bāngmáng",
+      "vi": "giúp đỡ",
+      "pos": "động từ",
+      "ex": "我想请你帮个忙。",
+      "exPy": "Wǒ xiǎng qǐng nǐ bāng ge máng.",
+      "tr": "Mình muốn nhờ bạn giúp một việc.",
+      "collocations": [
+        "帮个忙",
+        "请…帮忙",
+        "帮忙做…"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b1"
+    },
+    {
+      "id": "hsk2-b1-不好意思",
+      "han": "不好意思",
+      "py": "bù hǎoyìsi",
+      "vi": "xin lỗi, áy náy, ngại",
+      "pos": "cụm từ",
+      "ex": "不好意思，我已经到北京了。",
+      "exPy": "Bù hǎoyìsi, wǒ yǐjīng dào Běijīng le.",
+      "tr": "Xin lỗi nhé, mình đã đến Bắc Kinh rồi.",
+      "collocations": [
+        "不好意思，…",
+        "真不好意思",
+        "有点儿不好意思"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b1"
+    },
+    {
+      "id": "hsk2-b1-已经",
+      "han": "已经",
+      "py": "yǐjīng",
+      "vi": "đã",
+      "pos": "phó từ",
+      "ex": "我们已经到北京了。",
+      "exPy": "Wǒmen yǐjīng dào Běijīng le.",
+      "tr": "Chúng tôi đã đến Bắc Kinh rồi.",
+      "collocations": [
+        "已经…了",
+        "已经到了",
+        "已经知道"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b1"
+    },
+    {
+      "id": "hsk2-b1-那",
+      "han": "那",
+      "py": "nà",
+      "vi": "vậy, vậy thì, thế thì",
+      "pos": "liên từ",
+      "ex": "那我给他打个电话。",
+      "exPy": "Nà wǒ gěi tā dǎ ge diànhuà.",
+      "tr": "Vậy thì mình sẽ gọi điện cho bạn ấy.",
+      "collocations": [
+        "那我…",
+        "那我们…",
+        "那好吧"
+      ],
+      "deck": 2,
+      "lesson": "hsk2-b1"
+    },
+    {
+      "id": "hsk2-b1-介绍",
+      "han": "介绍",
+      "py": "jièshào",
+      "vi": "giới thiệu",
+      "pos": "động từ",
+      "ex": "她给我们介绍了很多东西。",
+      "exPy": "Tā gěi wǒmen jièshào le hěn duō dōngxi.",
+      "tr": "Chị ấy đã giới thiệu cho chúng tôi rất nhiều thứ.",
+      "collocations": [
+        "介绍一下",
+        "给…介绍",
+        "自我介绍"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b1"
+    },
+    {
+      "id": "hsk2-b1-有时",
+      "han": "有时",
+      "py": "yǒushí",
+      "vi": "có lúc, có khi",
+      "pos": "phó từ",
+      "ex": "我有时不太懂她的意思。",
+      "exPy": "Wǒ yǒushí bù tài dǒng tā de yìsi.",
+      "tr": "Đôi khi tôi không hiểu lắm ý của cô ấy.",
+      "collocations": [
+        "有时会…",
+        "有时…有时…",
+        "有时候"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b1"
+    },
+    {
+      "id": "hsk2-b1-懂",
+      "han": "懂",
+      "py": "dǒng",
+      "vi": "hiểu",
+      "pos": "động từ",
+      "ex": "你听懂了吗？",
+      "exPy": "Nǐ tīngdǒng le ma?",
+      "tr": "Bạn nghe hiểu chưa?",
+      "collocations": [
+        "听懂",
+        "看懂",
+        "不懂",
+        "懂意思"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b1"
+    },
+    {
+      "id": "hsk2-b1-意思",
+      "han": "意思",
+      "py": "yìsi",
+      "vi": "ý, ý nghĩa",
+      "pos": "danh từ",
+      "ex": "我不太懂她的意思。",
+      "exPy": "Wǒ bù tài dǒng tā de yìsi.",
+      "tr": "Tôi không hiểu lắm ý của cô ấy.",
+      "collocations": [
+        "什么意思",
+        "懂…的意思",
+        "有意思"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b1"
+    },
+    {
+      "id": "hsk2-b1-北京烤鸭",
+      "han": "北京烤鸭",
+      "py": "Běijīng Kǎoyā",
+      "vi": "vịt quay Bắc Kinh",
+      "pos": "danh từ riêng",
+      "ex": "她请我们吃了北京烤鸭。",
+      "exPy": "Tā qǐng wǒmen chīle Běijīng Kǎoyā.",
+      "tr": "Chị ấy đã mời chúng tôi ăn vịt quay Bắc Kinh.",
+      "collocations": [
+        "吃北京烤鸭",
+        "请…吃北京烤鸭",
+        "北京烤鸭店"
+      ],
+      "deck": 3,
+      "lesson": "hsk2-b1"
+    }
+  ]
+}
